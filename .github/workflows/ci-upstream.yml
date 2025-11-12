@@ -79,6 +79,23 @@ jobs:
           name: generated-terms
           path: generated/terms.json
 
+      - name: Run classification script (if present)
+        if: always()
+        run: |
+          if [ -f scripts/classify_terms.js ]; then
+            echo "Running classify_terms.js ...";
+            node scripts/classify_terms.js || true;
+          else
+            echo "No classify script found - skipping";
+          fi
+
+      - name: Upload classified terms
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: classified-terms
+          path: generated/*.json
+
       - name: Lint / quick smoke
         run: |
           echo "CI verification complete"
