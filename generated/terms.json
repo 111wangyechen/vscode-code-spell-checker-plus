@@ -1,897 +1,2812 @@
 [
-  "0be06161e1fc",
-  "0xfeef",
-  "100",
-  "177296936",
-  "177297717",
-  "20Checker",
-  "20Code",
-  "20Collective",
-  "20Donate",
-  "20Side",
-  "20Software",
-  "20Spell",
-  "20Sponsor",
-  "20Street",
-  "26LNBP2Q6MKCY",
-  "3740137",
-  "4178",
-  "4907",
-  "54d5a88c",
-  "66e013899318",
-  "710",
-  "88da81d8",
-  "9424",
-  "9a8c",
-  "a596",
-  "aaa",
-  "ability",
-  "above",
-  "absolute",
-  "acanthopterygious",
-  "action",
-  "active",
-  "add",
-  "Add",
-  "added",
-  "adding",
-  "Adding",
-  "addresses",
-  "addWords",
-  "after",
-  "After",
-  "against",
-  "alek",
-  "align",
-  "alinea",
-  "all",
-  "All",
-  "ALL",
-  "Allow",
-  "allowCompoundWords",
-  "allowed",
-  "allows",
-  "also",
-  "alt",
-  "always",
-  "Always",
-  "ancient",
-  "Ancient",
-  "and",
-  "any",
-  "Any",
-  "anything",
-  "appear",
-  "applicable",
-  "applied",
-  "apply",
-  "arabic",
-  "Arabic",
-  "are",
-  "ARE",
-  "AsciiDoc",
-  "ASn",
-  "assist",
-  "associated",
-  "australian",
-  "Australian",
-  "austrian",
-  "Austrian",
-  "back",
-  "badge",
-  "bar",
-  "Bar",
-  "base64",
-  "Base64",
-  "based",
-  "Based",
-  "basic",
-  "basque",
-  "Basque",
-  "bd91",
-  "because",
-  "been",
-  "before",
-  "behaviour",
-  "belong",
-  "between",
-  "bit",
-  "black",
-  "blob",
-  "block",
-  "blocks",
-  "bokmal",
-  "Bokmål",
-  "boolean",
-  "both",
-  "bottom",
-  "brazilian",
-  "Brazilian",
-  "british",
-  "British",
-  "Brought",
-  "build",
-  "built",
-  "bulgarian",
-  "Bulgarian",
-  "but",
-  "But",
-  "called",
-  "camel",
-  "camel2snake",
-  "camelCase",
-  "can",
-  "canadian",
-  "Canadian",
-  "cannot",
-  "CAPS",
-  "case",
-  "Case",
-  "cases",
-  "catalan",
-  "Catalan",
-  "catch",
-  "center",
-  "change",
-  "changing",
-  "char",
-  "characters",
-  "check",
-  "Check",
-  "checkbox",
-  "checked",
-  "checker",
-  "Checker",
-  "checking",
-  "Checking",
-  "cities",
-  "click",
-  "Click",
-  "client",
-  "Cmd",
-  "code",
-  "Code",
-  "collection",
-  "Collective",
-  "com",
-  "come",
-  "command",
-  "comment",
-  "comments",
-  "common",
-  "communicate",
-  "companies",
-  "company",
-  "companyName",
-  "companyTerms",
-  "compound",
-  "Compound",
-  "concept",
-  "concepts",
-  "configuration",
-  "Configuration",
-  "considered",
-  "const",
-  "contain",
-  "controlled",
-  "Controls",
-  "coroutine",
-  "correct",
-  "could",
-  "cPzr7XGAOJNurPL0G8I2kU0UhKcqFssoKvFTR7z0T3VJfK37vS025uKroHfJ9nA6WWbHZ",
-  "croatian",
-  "Croatian",
-  "csharp",
-  "cspell",
-  "cSpell",
-  "cSPELL",
-  "css",
-  "CStyleComment",
-  "Ctrl",
-  "curled",
-  "CURLedRequest",
-  "curls",
-  "CURLs",
-  "current",
-  "currently",
-  "cursor",
-  "custom",
-  "custom_dictionary",
-  "customDictionaries",
-  "CustomDictionary",
-  "CustomDictionaryPath",
-  "CustomDictionaryScope",
-  "Customization",
-  "CyduuVY",
-  "czech",
-  "Czech",
-  "danish",
-  "Danish",
-  "Dart",
-  "debounce",
-  "def",
-  "default",
-  "Default",
-  "Define",
-  "defined",
-  "Defines",
-  "delay",
-  "Derived",
-  "description",
-  "Description",
-  "determined",
-  "determines",
-  "Development",
-  "Diagnostic",
-  "diagnosticLevel",
-  "dict",
-  "dictionaries",
-  "Dictionaries",
-  "dictionary",
-  "Dictionary",
-  "DictionaryDefinition",
-  "dictionaryDefinitions",
-  "DictionaryId",
-  "different",
-  "directory",
-  "disable",
-  "Disable",
-  "DISABLE",
-  "disableCompoundWords",
-  "disabled",
-  "disallow",
-  "display",
-  "dll",
-  "docs",
-  "document",
-  "Document",
-  "documents",
-  "does",
-  "doesn",
-  "Doesn",
-  "donate",
-  "done",
-  "due",
-  "dutch",
-  "Dutch",
-  "Each",
-  "easiest",
-  "editing",
-  "Editor",
-  "either",
-  "Elixir",
-  "email",
-  "Email",
-  "email1",
-  "email2",
-  "emailaddress",
-  "enable",
-  "Enable",
-  "enableCompoundWords",
-  "enabled",
-  "Enabled",
-  "enabledLanguageIds",
-  "encodedImage",
-  "end",
-  "ending",
-  "english",
-  "English",
-  "enter",
-  "entire",
-  "entry",
-  "equivalent",
-  "error",
-  "Error",
-  "errormessage",
-  "errornumber",
-  "errors",
-  "Errors",
-  "EscapeCharacters",
-  "esperanto",
-  "Esperanto",
-  "estonian",
-  "Estonian",
-  "etc",
-  "every",
-  "Everything",
-  "example",
-  "Example",
-  "exclude",
-  "Exclude",
-  "excludeRegExp",
-  "excludes",
-  "Excluding",
-  "exist",
-  "expected",
-  "Explained",
-  "expression",
-  "expressions",
-  "ext",
-  "extension",
-  "extensions",
-  "false",
-  "FAQ",
-  "few",
-  "file",
-  "File",
-  "files",
-  "filter",
-  "find",
-  "Find",
-  "fine",
-  "finnish",
-  "Finnish",
-  "first",
-  "Fix",
-  "flagged",
-  "flags",
-  "flagWords",
-  "folder",
-  "Folder",
-  "following",
-  "fonts",
-  "footer",
-  "for",
-  "For",
-  "format",
-  "Format",
-  "formats",
-  "found",
-  "french",
-  "French",
-  "from",
-  "FsPath",
-  "Functionality",
-  "Further",
-  "galician",
-  "Galician",
-  "general",
-  "General",
-  "generated",
-  "german",
-  "German",
-  "get",
-  "getstarted",
-  "ggggg",
-  "gif",
-  "gim",
-  "git",
-  "github",
-  "GitHub",
-  "githubsponsors",
-  "githubusercontent",
-  "give",
-  "given",
-  "global",
-  "Global",
-  "glue",
-  "goal",
-  "goededag",
-  "goedemorgen",
-  "greek",
-  "Greek",
-  "guest",
-  "hand",
-  "has",
-  "have",
-  "hebrew",
-  "Hebrew",
-  "help",
-  "helpful",
-  "Here",
-  "hex",
-  "HexValues",
-  "hhhhh",
-  "hide",
-  "Hint",
-  "Hints",
-  "hit",
-  "hosted_button_id",
-  "how",
-  "How",
-  "href",
-  "hte",
-  "html",
-  "Html",
-  "HTML",
-  "HTMLInput",
-  "https",
-  "human",
-  "hungarian",
-  "Hungarian",
-  "Hunspell",
-  "ies",
-  "ignore",
-  "Ignore",
-  "ignored",
-  "ignorePaths",
-  "ignoreRegExp",
-  "ignoreWords",
-  "images",
-  "img",
-  "imgur",
-  "implied",
-  "include",
-  "Include",
-  "includeRegExp",
-  "includes",
-  "Including",
-  "incorrect",
-  "Indicate",
-  "indonesian",
-  "Indonesian",
-  "Info",
-  "Information",
-  "ing",
-  "inject",
-  "input",
-  "Input",
-  "insensitive",
-  "install",
-  "Install",
-  "int",
-  "intended",
-  "interface",
-  "internal",
-  "into",
-  "ise",
-  "isn",
-  "issues",
-  "Issues",
-  "italian",
-  "Italian",
-  "itemName",
-  "items",
-  "iterations",
-  "Jade",
-  "Java",
-  "javascript",
-  "Javascript",
-  "JavaScript",
-  "javascriptreact",
-  "jsj",
-  "jsja",
-  "json",
-  "JSON",
-  "jsonc",
-  "JSONC",
-  "just",
-  "keeping",
-  "kept",
-  "keybindings",
-  "keywords",
-  "know",
-  "known",
-  "label",
-  "language",
-  "Language",
-  "languageId",
-  "languages",
-  "Languages",
-  "languageSettings",
-  "last",
-  "LaTeX",
-  "latin",
-  "Latin",
-  "latvian",
-  "Latvian",
-  "leading",
-  "Leading",
-  "least",
-  "leaves",
-  "left",
-  "length",
-  "less",
-  "let",
-  "letter",
-  "level",
-  "Level",
-  "library",
-  "liep",
-  "lightbulb",
-  "like",
-  "line",
-  "list",
-  "List",
-  "lithuanian",
-  "Lithuanian",
-  "Load",
-  "loaded",
-  "local",
-  "locale",
-  "location",
-  "logo",
-  "Logo",
-  "long",
-  "longer",
-  "low",
-  "Mac",
-  "macedonian",
-  "Macedonian",
-  "machine",
-  "main",
-  "margin",
-  "markdown",
-  "Markdown",
-  "marked",
-  "marketplace",
-  "Marketplace",
-  "marketplace_language_extensions",
-  "match",
-  "matches",
-  "Matches",
-  "matching",
-  "maximum",
-  "maxNumberOfProblems",
-  "may",
-  "medical",
-  "Medical",
-  "medicalterms",
-  "medicalTerms",
-  "methods",
-  "might",
-  "minimum",
-  "minWordLength",
-  "misc",
-  "Miscellaneous",
-  "missing",
-  "mixing",
-  "mkdirp",
-  "mongolian",
-  "Mongolian",
-  "most",
-  "multi",
-  "Must",
-  "myfancynewcompany",
-  "myWords",
-  "name",
-  "Name",
-  "Names",
-  "Nederlands",
-  "need",
-  "Nest",
-  "next",
-  "node",
-  "node_modules",
-  "nodejs",
-  "norwegian",
-  "Norwegian",
-  "not",
-  "NOT",
-  "note",
-  "Note",
-  "Notice",
-  "now",
-  "num",
-  "number",
-  "numbers",
-  "numSuggestions",
-  "off",
-  "offensive",
-  "one",
-  "only",
-  "Only",
-  "open",
-  "Open",
-  "opencollective",
-  "option",
-  "Optional",
-  "Options",
-  "Order",
-  "other",
-  "our",
-  "outside",
-  "override",
-  "own",
-  "part",
-  "path",
-  "Path",
-  "paths",
-  "patreon",
-  "Patreon",
-  "patterns",
-  "Patterns",
-  "paypal",
-  "PayPal",
-  "per",
-  "persian",
-  "Persian",
-  "personal",
-  "php",
-  "PHP",
-  "PhpHereDoc",
-  "PHPHereDoc",
-  "placed",
-  "plaintext",
-  "png",
-  "polish",
-  "Polish",
-  "portuguese",
-  "Portuguese",
-  "positioning",
-  "positives",
-  "possible",
-  "powershell",
-  "PowerShell",
-  "practices",
-  "pre",
-  "precedence",
-  "Predefined",
-  "preferences",
-  "Preferences",
-  "prefixed",
-  "preserved",
-  "previous",
-  "Problems",
-  "programming",
-  "Programming",
-  "project",
-  "Project",
-  "projects",
-  "Pug",
-  "punctuation",
-  "put",
-  "python",
-  "Python",
-  "qqqqq",
-  "QQQQQ",
-  "Quick",
-  "raw",
-  "readable",
-  "reference",
-  "references",
-  "Réforme",
-  "reforme",
-  "RegExp",
-  "regular",
-  "related",
-  "relative",
-  "reload",
-  "remaining",
-  "remove",
-  "Remove",
-  "removed",
-  "replace",
-  "Report",
-  "Reporting",
-  "request",
-  "reStructuredText",
-  "retained",
-  "rich",
-  "romanian",
-  "Romanian",
-  "root",
-  "Ruby",
-  "rules",
-  "russian",
-  "Russian",
-  "Rust",
-  "same",
-  "Scala",
-  "scientific",
-  "Scientific",
-  "scope",
-  "Scope",
-  "screen",
-  "scss",
-  "section",
-  "sections",
-  "see",
-  "See",
-  "select",
-  "self",
-  "send",
-  "sensitive",
-  "seq",
-  "serbian",
-  "Serbian",
-  "set",
-  "Set",
-  "setting",
-  "settings",
-  "Settings",
-  "shields",
-  "should",
-  "Should",
-  "show",
-  "shown",
-  "shows",
-  "Side",
-  "simple",
-  "since",
-  "Since",
-  "single",
-  "slovak",
-  "Slovak",
-  "slovenian",
-  "Slovenian",
-  "snake",
-  "snake_case_words",
-  "social",
-  "Software",
-  "softwareTerms",
-  "some",
-  "source",
-  "space",
-  "spaces",
-  "Spaces",
-  "spanish",
-  "Spanish",
-  "special",
-  "Special",
-  "specific",
-  "specify",
-  "Specify",
-  "spell",
-  "Spell",
-  "spellCheckDelayMs",
-  "spellchecker",
-  "spelling",
-  "Spelling",
-  "split",
-  "sponsors",
-  "Sponsors",
-  "sql",
-  "SQL",
-  "squiggly",
-  "src",
-  "start",
-  "state",
-  "static",
-  "status",
-  "Status",
-  "still",
-  "stop",
-  "store",
-  "str",
-  "Street",
-  "streetsidesoftware",
-  "string",
-  "stringlength",
-  "strings",
-  "Studio",
-  "style",
-  "Style",
-  "suggested",
-  "suggestions",
-  "Suggestions",
-  "sum_it",
-  "sup",
-  "Support",
-  "supported",
-  "Supported",
-  "swedish",
-  "Swedish",
-  "sweeetbeat",
-  "swiss",
-  "Swiss",
-  "symbols",
-  "target",
-  "Technical",
-  "tell",
-  "terms",
-  "Terms",
-  "text",
-  "Text",
-  "than",
-  "that",
-  "the",
-  "The",
-  "them",
-  "then",
-  "there",
-  "There",
-  "These",
-  "they",
-  "They",
-  "Things",
-  "this",
-  "This",
-  "till",
-  "title",
-  "together",
-  "told",
-  "tool",
-  "top",
-  "trailing",
-  "Trailing",
-  "tree",
-  "true",
-  "tsmerge",
-  "turkish",
-  "Turkish",
-  "turn",
-  "turned",
-  "two",
-  "txt",
-  "type",
-  "types",
-  "Types",
-  "typescript",
-  "Typescript",
-  "TypeScript",
-  "typescriptreact",
-  "u0134",
-  "ukrainian",
-  "Ukrainian",
-  "undefined",
-  "underline",
-  "upon",
-  "upper",
-  "urls",
-  "Urls",
-  "use",
-  "used",
-  "useful",
-  "user",
-  "User",
-  "Users",
-  "userWords",
-  "uses",
-  "using",
-  "value",
-  "values",
-  "var",
-  "variabele",
-  "Verdana",
-  "version",
-  "Version",
-  "via",
-  "vietnamese",
-  "Vietnamese",
-  "Visual",
-  "visualstudio",
-  "vscode",
-  "VSCode",
-  "vsmarketplacebadge",
-  "wackyWord",
-  "want",
-  "Warning",
-  "Warnings",
-  "was",
-  "way",
-  "well",
-  "were",
-  "wheerd",
-  "when",
-  "When",
-  "where",
-  "which",
-  "while",
-  "width",
-  "will",
-  "win32",
-  "Win32",
-  "window",
-  "Window",
-  "windows",
-  "wish",
-  "with",
-  "within",
-  "wooorrdd",
-  "woorxs",
-  "word",
-  "Word",
-  "WordLists",
-  "words",
-  "Words",
-  "wordsEn",
-  "wordsEnGb",
-  "work",
-  "working",
-  "works",
-  "workspace",
-  "Workspace",
-  "workspaceFolder",
-  "workspaceRoot",
-  "workspaces",
-  "www",
-  "yaml",
-  "YAML",
-  "yield",
-  "you",
-  "You",
-  "your",
-  "zaallano",
-  "zzooommmmmmmm"
+  {
+    "term": "Dictionary",
+    "confidence": 100,
+    "category": "technical",
+    "occurrences": 57,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "// Term Dictionary Module - Main Entry Point",
+      "export type { DictionaryMetadata } from './models/DictionaryMetadata';",
+      "export type { DictionaryMetadata } from './models/DictionaryMetadata';"
+    ]
+  },
+  {
+    "term": "Manager",
+    "confidence": 100,
+    "category": "technical",
+    "occurrences": 53,
+    "sources": [
+      "comments",
+      "source_code"
+    ],
+    "sampleContexts": [
+      "export type { TermManager } from './components/TermManager';",
+      "export type { TermManager } from './components/TermManager';",
+      "import { TermManagerImpl as TermManager } from './components/TermManager';"
+    ]
+  },
+  {
+    "term": "Storage",
+    "confidence": 100,
+    "category": "technical",
+    "occurrences": 51,
+    "sources": [
+      "source_code",
+      "comments"
+    ],
+    "sampleContexts": [
+      "import { FileStorage } from './storage/FileStorage';",
+      "import { FileStorage } from './storage/FileStorage';",
+      "import { FileStorage } from './storage/FileStorage';"
+    ]
+  },
+  {
+    "term": "Export",
+    "confidence": 100,
+    "category": "technical",
+    "occurrences": 30,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "// Export core components",
+      "export type { TermManager } from './components/TermManager';",
+      "// Export models"
+    ]
+  },
+  {
+    "term": "Metadata",
+    "confidence": 100,
+    "category": "technical",
+    "occurrences": 11,
+    "sources": [],
+    "sampleContexts": [
+      "export type { DictionaryMetadata } from './models/DictionaryMetadata';",
+      "export type { DictionaryMetadata } from './models/DictionaryMetadata';",
+      "        metadata: {"
+    ]
+  },
+  {
+    "term": "Initialized",
+    "confidence": 100,
+    "category": "technical",
+    "occurrences": 10,
+    "sources": [],
+    "sampleContexts": [
+      "  private isInitialized: boolean = false;",
+      "    if (this.isInitialized) {",
+      "      this.isInitialized = true;"
+    ]
+  },
+  {
+    "term": "Version",
+    "confidence": 100,
+    "category": "technical",
+    "occurrences": 7,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "// Version information",
+      "export const VERSION: string = '0.1.0';",
+      "  VERSION"
+    ]
+  },
+  {
+    "term": "Term",
+    "confidence": 95,
+    "category": "technical",
+    "occurrences": 322,
+    "sources": [
+      "comments",
+      "source_code"
+    ],
+    "sampleContexts": [
+      "// Term Dictionary Module - Main Entry Point",
+      "export type { TermManager } from './components/TermManager';",
+      "export type { TermManager } from './components/TermManager';"
+    ]
+  },
+  {
+    "term": "Domain",
+    "confidence": 95,
+    "category": "technical",
+    "occurrences": 112,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "export type { DomainDictionary } from './models/DomainDictionary';",
+      "export type { DomainDictionary } from './models/DomainDictionary';",
+      "import { Term, MainDictionary, DomainDictionary } from '../models';"
+    ]
+  },
+  {
+    "term": "Id",
+    "confidence": 95,
+    "category": "technical",
+    "occurrences": 57,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  deleteTerm(termId: string): Promise<void>;",
+      "      const existingIndex = terms.findIndex(t => t.id === term.id);",
+      "      const existingIndex = terms.findIndex(t => t.id === term.id);"
+    ]
+  },
+  {
+    "term": "ISO",
+    "confidence": 95,
+    "category": "technical",
+    "occurrences": 36,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "          generated_at: new Date().toISOString(),",
+      "          generated_at: new Date().toISOString(),",
+      "  generated_at: string; // ISO8601时间"
+    ]
+  },
+  {
+    "term": "File",
+    "confidence": 95,
+    "category": "technical",
+    "occurrences": 35,
+    "sources": [
+      "source_code"
+    ],
+    "sampleContexts": [
+      "import { FileStorage } from './storage/FileStorage';",
+      "import { FileStorage } from './storage/FileStorage';",
+      "  FileStorage,"
+    ]
+  },
+  {
+    "term": "Main",
+    "confidence": 95,
+    "category": "technical",
+    "occurrences": 28,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "// Term Dictionary Module - Main Entry Point",
+      "export type { MainDictionary } from './models/MainDictionary';",
+      "export type { MainDictionary } from './models/MainDictionary';"
+    ]
+  },
+  {
+    "term": "Promise",
+    "confidence": 95,
+    "category": "technical",
+    "occurrences": 26,
+    "sources": [],
+    "sampleContexts": [
+      "  loadTerms(domain?: string): Promise<Term[]>;",
+      "  saveTerm(term: Term): Promise<void>;",
+      "  deleteTerm(termId: string): Promise<void>;"
+    ]
+  },
+  {
+    "term": "Set",
+    "confidence": 95,
+    "category": "technical",
+    "occurrences": 10,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "      const termIds = new Set<string>();",
+      "  private domainTerms: Map<string, Set<string>> = new Map(); // 领域到术语ID的映射",
+      "    const termIds = this.domainTerms.get(domain) || new Set();"
+    ]
+  },
+  {
+    "term": "Mock",
+    "confidence": 95,
+    "category": "technical",
+    "occurrences": 9,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "// Mock Storage implementation",
+      "class MockStorage implements Storage {",
+      "  let mockStorage: MockStorage;"
+    ]
+  },
+  {
+    "term": "Terms",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 158,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  loadTerms(domain?: string): Promise<Term[]>;",
+      "    this.mainDictionaryPath = path.join(basePath, 'terms.json');",
+      "  async loadTerms(domain?: string): Promise<Term[]> {"
+    ]
+  },
+  {
+    "term": "Dict",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 41,
+    "sources": [],
+    "sampleContexts": [
+      "          const domainDict: DomainDictionary = JSON.parse(data);",
+      "          return domainDict.terms || [];",
+      "          const mainDict: MainDictionary = JSON.parse(data);"
+    ]
+  },
+  {
+    "term": "Date",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 35,
+    "sources": [],
+    "sampleContexts": [
+      "          generated_at: new Date().toISOString(),",
+      "          generated_at: new Date().toISOString(),",
+      "    return `${text.toLowerCase().replace(/\\s+/g, '-')}-${Date.now()}`;"
+    ]
+  },
+  {
+    "term": "Sync",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 26,
+    "sources": [],
+    "sampleContexts": [
+      "        if (fs.existsSync(domainFilePath)) {",
+      "          const data = fs.readFileSync(domainFilePath, 'utf8');",
+      "        if (fs.existsSync(this.mainDictionaryPath)) {"
+    ]
+  },
+  {
+    "term": "Cache",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 20,
+    "sources": [],
+    "sampleContexts": [
+      "  private termsCache: Map<string, Term> = new Map();",
+      "      this.buildCache(allTerms);",
+      "      const term = this.termsCache.get(termId);"
+    ]
+  },
+  {
+    "term": "json",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 19,
+    "sources": [],
+    "sampleContexts": [
+      "    this.mainDictionaryPath = path.join(basePath, 'terms.json');",
+      "        const domainFilePath = path.join(this.basePath, `terms-${domain}.json`);",
+      "          const domainDict: DomainDictionary = JSON.parse(data);"
+    ]
+  },
+  {
+    "term": "Index",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 17,
+    "sources": [],
+    "sampleContexts": [
+      "      const existingIndex = terms.findIndex(t => t.id === term.id);",
+      "      const existingIndex = terms.findIndex(t => t.id === term.id);",
+      "      if (existingIndex >= 0) {"
+    ]
+  },
+  {
+    "term": "Dir",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 13,
+    "sources": [],
+    "sampleContexts": [
+      "  const testDir = path.join(__dirname, 'test-data');",
+      "  const mainDictPath = path.join(testDir, 'terms.json');",
+      "  const frontendDictPath = path.join(testDir, 'terms-frontend.json');"
+    ]
+  },
+  {
+    "term": "Exists",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 12,
+    "sources": [],
+    "sampleContexts": [
+      "    this.ensureDirectoryExists();",
+      "        if (fs.existsSync(domainFilePath)) {",
+      "        if (fs.existsSync(this.mainDictionaryPath)) {"
+    ]
+  },
+  {
+    "term": "Ids",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 9,
+    "sources": [],
+    "sampleContexts": [
+      "      const termIds = new Set<string>();",
+      "          if (!termIds.has(term.id || '')) {",
+      "              termIds.add(term.id);"
+    ]
+  },
+  {
+    "term": "Lower",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 9,
+    "sources": [],
+    "sampleContexts": [
+      "      if (cachedTerm.text.toLowerCase() === term.toLowerCase()) {",
+      "      if (cachedTerm.text.toLowerCase() === term.toLowerCase()) {",
+      "      if (cachedTerm.variations.some(v => v.toLowerCase() === term.toLowerCase())) {"
+    ]
+  },
+  {
+    "term": "Case",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 9,
+    "sources": [],
+    "sampleContexts": [
+      "      if (cachedTerm.text.toLowerCase() === term.toLowerCase()) {",
+      "      if (cachedTerm.text.toLowerCase() === term.toLowerCase()) {",
+      "      if (cachedTerm.variations.some(v => v.toLowerCase() === term.toLowerCase())) {"
+    ]
+  },
+  {
+    "term": "Script",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 8,
+    "sources": [],
+    "sampleContexts": [
+      "          text: 'TypeScript',",
+      "      expect(terms.map(t => t.text).sort()).toEqual(['NodeJS', 'TypeScript']);",
+      "      expect(frontendTerms[0].text).toBe('TypeScript');"
+    ]
+  },
+  {
+    "term": "Failed",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "      throw new Error('Failed to save term');",
+      "      throw new Error('Failed to delete term');",
+      "      console.error('Failed to initialize TermManager:', error);"
+    ]
+  },
+  {
+    "term": "ts",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "          id: 'ts-1',",
+      "          variations: ['TS'],",
+      "      variations: ['typescript', 'TS'],"
+    ]
+  },
+  {
+    "term": "JS",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "          text: 'NodeJS',",
+      "      expect(terms.map(t => t.text).sort()).toEqual(['NodeJS', 'TypeScript']);",
+      "      expect(backendTerms[0].text).toBe('NodeJS');"
+    ]
+  },
+  {
+    "term": "Equal",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "      expect(terms.map(t => t.text).sort()).toEqual(['NodeJS', 'TypeScript']);",
+      "    expect(term.variations).toEqual(['typescript', 'TS']);",
+      "    expect(term.domains).toEqual(['frontend']);"
+    ]
+  },
+  {
+    "term": "Options",
+    "confidence": 90,
+    "category": "technical",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "export type { QueryOptions } from './models/QueryOptions';",
+      "export type { QueryOptions } from './models/QueryOptions';",
+      "export interface QueryOptions {"
+    ]
+  },
+  {
+    "term": "Map",
+    "confidence": 85,
+    "category": "technical",
+    "occurrences": 5,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  private termsCache: Map<string, Term> = new Map();",
+      "  private termsCache: Map<string, Term> = new Map();",
+      "  private domainTerms: Map<string, Set<string>> = new Map(); // 领域到术语ID的映射"
+    ]
+  },
+  {
+    "term": "Query",
+    "confidence": 85,
+    "category": "technical",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "export type { QueryOptions } from './models/QueryOptions';",
+      "export type { QueryOptions } from './models/QueryOptions';",
+      "export interface QueryOptions {"
+    ]
+  },
+  {
+    "term": "Matching",
+    "confidence": 85,
+    "category": "technical",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "          const hasMatchingDomain = cachedTerm.domains.some(domain => ",
+      "          if (hasMatchingDomain) {",
+      "          const hasMatchingDomain = cachedTerm.domains.some(domain => "
+    ]
+  },
+  {
+    "term": "domains",
+    "confidence": 80,
+    "category": "technical",
+    "occurrences": 45,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "      for (const domain of term.domains) {",
+      "      for (const domain of term.domains) {",
+      "      const domains = ['frontend', 'backend', 'ai', 'other'];"
+    ]
+  },
+  {
+    "term": "confidence",
+    "confidence": 80,
+    "category": "technical",
+    "occurrences": 29,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  confidence: number;   // 置信度 (0-1)",
+      "  confidenceThreshold?: number; // 置信度阈值",
+      "  sortBy?: 'frequency' | 'confidence' | 'createdAt'; // 排序方式"
+    ]
+  },
+  {
+    "term": "variations",
+    "confidence": 80,
+    "category": "technical",
+    "occurrences": 21,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  variations: string[]; // 变体形式",
+      "  includeVariations?: boolean; // 是否包含变体",
+      "      if (cachedTerm.variations.some(v => v.toLowerCase() === term.toLowerCase())) {"
+    ]
+  },
+  {
+    "term": "frequency",
+    "confidence": 80,
+    "category": "technical",
+    "occurrences": 19,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  frequency: number;    // 出现频率",
+      "  sortBy?: 'frequency' | 'confidence' | 'createdAt'; // 排序方式",
+      "        frequency: 10,"
+    ]
+  },
+  {
+    "term": "created",
+    "confidence": 80,
+    "category": "technical",
+    "occurrences": 19,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  createdAt: string;    // 创建时间",
+      "  sortBy?: 'frequency' | 'confidence' | 'createdAt'; // 排序方式",
+      "        createdAt: new Date().toISOString(),"
+    ]
+  },
+  {
+    "term": "updated",
+    "confidence": 80,
+    "category": "technical",
+    "occurrences": 19,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  updatedAt: string;    // 更新时间",
+      "      console.log(`Updated terms, now have ${allTerms.length} terms`);",
+      "        updatedAt: new Date().toISOString()"
+    ]
+  },
+  {
+    "term": "sources",
+    "confidence": 80,
+    "category": "technical",
+    "occurrences": 18,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  sources: string[];    // 来源",
+      "        sources: ['test'],",
+      "        sources: ['test'],"
+    ]
+  },
+  {
+    "term": "private",
+    "confidence": 80,
+    "category": "technical",
+    "occurrences": 17,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  private basePath: string;",
+      "  private mainDictionaryPath: string;",
+      "  private ensureDirectoryExists(): void {"
+    ]
+  },
+  {
+    "term": "initialize",
+    "confidence": 80,
+    "category": "technical",
+    "occurrences": 15,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  initialize(): Promise<void>;",
+      "  async initialize(): Promise<void> {",
+      "      console.error('Failed to initialize TermManager:', error);"
+    ]
+  },
+  {
+    "term": "Impl",
+    "confidence": 80,
+    "category": "technical",
+    "occurrences": 4,
+    "sources": [
+      "source_code"
+    ],
+    "sampleContexts": [
+      "import { TermManagerImpl as TermManager } from './components/TermManager';",
+      "export class TermManagerImpl implements TermManager {",
+      "import { TermManager, TermManagerImpl } from '../../../src/components';"
+    ]
+  },
+  {
+    "term": "Files",
+    "confidence": 80,
+    "category": "technical",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "    const testFiles = [",
+      "    testFiles.forEach(file => {",
+      "      const files = fs.readdirSync(testDir);"
+    ]
+  },
+  {
+    "term": "Threshold",
+    "confidence": 80,
+    "category": "technical",
+    "occurrences": 1,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  confidenceThreshold?: number; // 置信度阈值"
+    ]
+  },
+  {
+    "term": "string",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 80,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "export const VERSION: string = '0.1.0';",
+      "  loadTerms(domain?: string): Promise<Term[]>;",
+      "  deleteTerm(termId: string): Promise<void>;"
+    ]
+  },
+  {
+    "term": "path",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 52,
+    "sources": [],
+    "sampleContexts": [
+      "import * as path from 'path';",
+      "import * as path from 'path';",
+      "  private basePath: string;"
+    ]
+  },
+  {
+    "term": "new",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 47,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "          generated_at: new Date().toISOString(),",
+      "      throw new Error('Failed to save term');",
+      "          generated_at: new Date().toISOString(),"
+    ]
+  },
+  {
+    "term": "frontend",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 37,
+    "sources": [],
+    "sampleContexts": [
+      "      const domains = ['frontend', 'backend', 'ai', 'other'];",
+      "  const frontendDictPath = path.join(testDir, 'terms-frontend.json');",
+      "  const frontendDictPath = path.join(testDir, 'terms-frontend.json');"
+    ]
+  },
+  {
+    "term": "text",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 35,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  text: string;         // 术语文本",
+      "      term.id = this.generateId(term.text);",
+      "    console.log(`Added term: ${term.text} to domains: ${domains.join(', ')}`);"
+    ]
+  },
+  {
+    "term": "fs",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 30,
+    "sources": [],
+    "sampleContexts": [
+      "import * as fs from 'fs';",
+      "import * as fs from 'fs';",
+      "        if (fs.existsSync(domainFilePath)) {"
+    ]
+  },
+  {
+    "term": "return",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 29,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "          return domainDict.terms || [];",
+      "        return [];",
+      "          return mainDict.terms || [];"
+    ]
+  },
+  {
+    "term": "test",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 29,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  const testDir = path.join(__dirname, 'test-data');",
+      "  const testDir = path.join(__dirname, 'test-data');",
+      "  const mainDictPath = path.join(testDir, 'terms.json');"
+    ]
+  },
+  {
+    "term": "backend",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 21,
+    "sources": [],
+    "sampleContexts": [
+      "      const domains = ['frontend', 'backend', 'ai', 'other'];",
+      "  const backendDictPath = path.join(testDir, 'terms-backend.json');",
+      "  const backendDictPath = path.join(testDir, 'terms-backend.json');"
+    ]
+  },
+  {
+    "term": "import",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 17,
+    "sources": [
+      "source_code"
+    ],
+    "sampleContexts": [
+      "import { TermManagerImpl as TermManager } from './components/TermManager';",
+      "import { FileStorage } from './storage/FileStorage';",
+      "import * as fs from 'fs';"
+    ]
+  },
+  {
+    "term": "models",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 12,
+    "sources": [
+      "comments",
+      "source_code"
+    ],
+    "sampleContexts": [
+      "// Export models",
+      "export type { Term } from './models/Term';",
+      "export type { DictionaryMetadata } from './models/DictionaryMetadata';"
+    ]
+  },
+  {
+    "term": "console",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 12,
+    "sources": [],
+    "sampleContexts": [
+      "      console.error('Error loading terms:', error);",
+      "      console.error('Error saving term:', error);",
+      "      console.error('Error deleting term:', error);"
+    ]
+  },
+  {
+    "term": "describe",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 12,
+    "sources": [],
+    "sampleContexts": [
+      "describe('FileStorage', () => {",
+      "  describe('saveTerm', () => {",
+      "  describe('loadTerms', () => {"
+    ]
+  },
+  {
+    "term": "before",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 11,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  beforeEach(() => {",
+      "    beforeEach(async () => {",
+      "    beforeEach(async () => {"
+    ]
+  },
+  {
+    "term": "existing",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 9,
+    "sources": [],
+    "sampleContexts": [
+      "      const existingIndex = terms.findIndex(t => t.id === term.id);",
+      "      if (existingIndex >= 0) {",
+      "        terms[existingIndex] = term;"
+    ]
+  },
+  {
+    "term": "number",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 9,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  confidence: number;   // 置信度 (0-1)",
+      "  frequency: number;    // 出现频率",
+      "  confidenceThreshold?: number; // 置信度阈值"
+    ]
+  },
+  {
+    "term": "interface",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 8,
+    "sources": [],
+    "sampleContexts": [
+      "export interface Storage {",
+      "export interface Term {",
+      "export interface QueryOptions {"
+    ]
+  },
+  {
+    "term": "angular",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "        id: 'angular-1',",
+      "        text: 'Angular',",
+      "        variations: ['angular', 'ng'],"
+    ]
+  },
+  {
+    "term": "Undefined",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 3,
+    "sources": [],
+    "sampleContexts": [
+      "    expect(term.id).toBeUndefined();",
+      "    expect(term.contexts).toBeUndefined();",
+      "    expect(term.tags).toBeUndefined();"
+    ]
+  },
+  {
+    "term": "Module",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "// Term Dictionary Module - Main Entry Point",
+      "Term Dictionary Module - Main Entry Point"
+    ]
+  },
+  {
+    "term": "Entry",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "// Term Dictionary Module - Main Entry Point",
+      "Term Dictionary Module - Main Entry Point"
+    ]
+  },
+  {
+    "term": "Point",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "// Term Dictionary Module - Main Entry Point",
+      "Term Dictionary Module - Main Entry Point"
+    ]
+  },
+  {
+    "term": "Directory",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "    this.ensureDirectoryExists();",
+      "  private ensureDirectoryExists(): void {"
+    ]
+  },
+  {
+    "term": "Helper",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  // Helper method to initialize with test data",
+      "Helper method to initialize with test data"
+    ]
+  },
+  {
+    "term": "Initial",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "  setInitialTerms(terms: Term[]): void {",
+      "      mockStorage.setInitialTerms(testTerms);"
+    ]
+  },
+  {
+    "term": "Verify",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "      // Verify initialization by checking if term is in dictionary",
+      "Verify initialization by checking if term is in dictionary"
+    ]
+  },
+  {
+    "term": "Express",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "        text: 'Express',",
+      "      expect(backendTerms[0].text).toBe('Express');"
+    ]
+  },
+  {
+    "term": "Removed",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "    console.log(`Removed term: ${term.text}`);"
+    ]
+  },
+  {
+    "term": "Kubernetes",
+    "confidence": 75,
+    "category": "technical",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "      expect(termManager.getTermConfidence('Kubernetes')).toBe(0);"
+    ]
+  },
+  {
+    "term": "const",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 77,
+    "sources": [],
+    "sampleContexts": [
+      "export const VERSION: string = '0.1.0';",
+      "        const domainFilePath = path.join(this.basePath, `terms-${domain}.json`);",
+      "          const data = fs.readFileSync(domainFilePath, 'utf8');"
+    ]
+  },
+  {
+    "term": "expect",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 53,
+    "sources": [],
+    "sampleContexts": [
+      "      expect(fs.existsSync(mainDictPath)).toBe(true);",
+      "      expect(dict.metadata.total_terms).toBe(1);",
+      "      expect(dict.terms.length).toBe(1);"
+    ]
+  },
+  {
+    "term": "await",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 43,
+    "sources": [],
+    "sampleContexts": [
+      "      const terms = await this.loadTerms();",
+      "        await this.saveToDomainDictionary(term, domain);",
+      "      const terms = await this.loadTerms();"
+    ]
+  },
+  {
+    "term": "async",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 34,
+    "sources": [],
+    "sampleContexts": [
+      "  async loadTerms(domain?: string): Promise<Term[]> {",
+      "  async saveTerm(term: Term): Promise<void> {",
+      "  async deleteTerm(termId: string): Promise<void> {"
+    ]
+  },
+  {
+    "term": "error",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 30,
+    "sources": [],
+    "sampleContexts": [
+      "    } catch (error) {",
+      "      console.error('Error loading terms:', error);",
+      "      console.error('Error loading terms:', error);"
+    ]
+  },
+  {
+    "term": "load",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 28,
+    "sources": [],
+    "sampleContexts": [
+      "  loadTerms(domain?: string): Promise<Term[]>;",
+      "  async loadTerms(domain?: string): Promise<Term[]> {",
+      "        return this.loadAllDomainTerms();"
+    ]
+  },
+  {
+    "term": "void",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 25,
+    "sources": [],
+    "sampleContexts": [
+      "  saveTerm(term: Term): Promise<void>;",
+      "  deleteTerm(termId: string): Promise<void>;",
+      "  async saveTerm(term: Term): Promise<void> {"
+    ]
+  },
+  {
+    "term": "add",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 21,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "              termIds.add(term.id);",
+      "  addTerm(term: Term, domains: string[]): Promise<void>;",
+      "  async addTerm(term: Term, domains: string[]): Promise<void> {"
+    ]
+  },
+  {
+    "term": "it",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 21,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should save a term to the main dictionary', async () => {",
+      "    it('should save a term to domain dictionaries', async () => {",
+      "    it('should load all terms from main dictionary', async () => {"
+    ]
+  },
+  {
+    "term": "should",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 21,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should save a term to the main dictionary', async () => {",
+      "    it('should save a term to domain dictionaries', async () => {",
+      "    it('should load all terms from main dictionary', async () => {"
+    ]
+  },
+  {
+    "term": "length",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 20,
+    "sources": [],
+    "sampleContexts": [
+      "          total_terms: terms.length",
+      "          total_terms: terms.length",
+      "    domainDict.count = domainDict.terms.length;"
+    ]
+  },
+  {
+    "term": "true",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 17,
+    "sources": [],
+    "sampleContexts": [
+      "      fs.mkdirSync(this.basePath, { recursive: true });",
+      "      this.isInitialized = true;",
+      "            return true;"
+    ]
+  },
+  {
+    "term": "delete",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 16,
+    "sources": [],
+    "sampleContexts": [
+      "  deleteTerm(termId: string): Promise<void>;",
+      "  async deleteTerm(termId: string): Promise<void> {",
+      "      throw new Error('Failed to delete term');"
+    ]
+  },
+  {
+    "term": "save",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 15,
+    "sources": [],
+    "sampleContexts": [
+      "  saveTerm(term: Term): Promise<void>;",
+      "  async saveTerm(term: Term): Promise<void> {",
+      "        await this.saveToDomainDictionary(term, domain);"
+    ]
+  },
+  {
+    "term": "data",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 15,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "          const data = fs.readFileSync(domainFilePath, 'utf8');",
+      "          const domainDict: DomainDictionary = JSON.parse(data);",
+      "          const data = fs.readFileSync(this.mainDictionaryPath, 'utf8');"
+    ]
+  },
+  {
+    "term": "type",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 14,
+    "sources": [],
+    "sampleContexts": [
+      "export type { TermManager } from './components/TermManager';",
+      "export type { Term } from './models/Term';",
+      "export type { DictionaryMetadata } from './models/DictionaryMetadata';"
+    ]
+  },
+  {
+    "term": "join",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 12,
+    "sources": [],
+    "sampleContexts": [
+      "    this.mainDictionaryPath = path.join(basePath, 'terms.json');",
+      "        const domainFilePath = path.join(this.basePath, `terms-${domain}.json`);",
+      "    const domainFilePath = path.join(this.basePath, `terms-${domain}.json`);"
+    ]
+  },
+  {
+    "term": "get",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 11,
+    "sources": [],
+    "sampleContexts": [
+      "  getTermConfidence(term: string): number;",
+      "    const termIds = this.domainTerms.get(domain) || new Set();",
+      "      const term = this.termsCache.get(termId);"
+    ]
+  },
+  {
+    "term": "cached",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 11,
+    "sources": [],
+    "sampleContexts": [
+      "    for (const cachedTerm of this.termsCache.values()) {",
+      "      if (cachedTerm.text.toLowerCase() === term.toLowerCase()) {",
+      "          const hasMatchingDomain = cachedTerm.domains.some(domain => "
+    ]
+  },
+  {
+    "term": "base",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 10,
+    "sources": [],
+    "sampleContexts": [
+      "  private basePath: string;",
+      "  constructor(basePath: string = './generated') {",
+      "    this.basePath = basePath;"
+    ]
+  },
+  {
+    "term": "react",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 10,
+    "sources": [],
+    "sampleContexts": [
+      "        id: 'react-1',",
+      "        text: 'React',",
+      "      expect(domainDict.terms[0].text).toBe('React');"
+    ]
+  },
+  {
+    "term": "remove",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 9,
+    "sources": [],
+    "sampleContexts": [
+      "        await this.removeFromDomainDictionary(termId, domain);",
+      "  private async removeFromDomainDictionary(termId: string, domain: string): Promise<void> {",
+      "  removeTerm(termId: string): Promise<void>;"
+    ]
+  },
+  {
+    "term": "try",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 8,
+    "sources": [],
+    "sampleContexts": [
+      "    try {",
+      "    try {",
+      "    try {"
+    ]
+  },
+  {
+    "term": "catch",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 8,
+    "sources": [],
+    "sampleContexts": [
+      "    } catch (error) {",
+      "    } catch (error) {",
+      "    } catch (error) {"
+    ]
+  },
+  {
+    "term": "ensure",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 7,
+    "sources": [],
+    "sampleContexts": [
+      "    this.ensureDirectoryExists();",
+      "  private ensureDirectoryExists(): void {",
+      "    await this.ensureInitialized();"
+    ]
+  },
+  {
+    "term": "node",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 7,
+    "sources": [],
+    "sampleContexts": [
+      "          id: 'node-1',",
+      "          text: 'NodeJS',",
+      "      expect(terms.map(t => t.text).sort()).toEqual(['NodeJS', 'TypeScript']);"
+    ]
+  },
+  {
+    "term": "read",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "          const data = fs.readFileSync(domainFilePath, 'utf8');",
+      "          const data = fs.readFileSync(this.mainDictionaryPath, 'utf8');",
+      "        const data = fs.readFileSync(domainFilePath, 'utf8');"
+    ]
+  },
+  {
+    "term": "utf",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "          const data = fs.readFileSync(domainFilePath, 'utf8');",
+      "          const data = fs.readFileSync(this.mainDictionaryPath, 'utf8');",
+      "        const data = fs.readFileSync(domainFilePath, 'utf8');"
+    ]
+  },
+  {
+    "term": "parse",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "          const domainDict: DomainDictionary = JSON.parse(data);",
+      "          const mainDict: MainDictionary = JSON.parse(data);",
+      "        domainDict = JSON.parse(data);"
+    ]
+  },
+  {
+    "term": "find",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "      const existingIndex = terms.findIndex(t => t.id === term.id);",
+      "      const termIndex = terms.findIndex(t => t.id === termId);",
+      "    const existingIndex = domainDict.terms.findIndex(t => t.id === term.id);"
+    ]
+  },
+  {
+    "term": "has",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "          if (!termIds.has(term.id || '')) {",
+      "          const hasMatchingDomain = cachedTerm.domains.some(domain => ",
+      "          if (hasMatchingDomain) {"
+    ]
+  },
+  {
+    "term": "false",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "  private isInitialized: boolean = false;",
+      "    return false;",
+      "      expect(termManager.isTermInDictionary('Vue')).toBe(false);"
+    ]
+  },
+  {
+    "term": "src",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [
+      "source_code"
+    ],
+    "sampleContexts": [
+      "import { FileStorage } from '../../../src/storage';",
+      "import { Term } from '../../../src/models';",
+      "import { Term } from '../../../src/models';"
+    ]
+  },
+  {
+    "term": "code",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "      contexts: ['in code', 'in comments'],",
+      "    expect(term.contexts).toEqual(['in code', 'in comments']);",
+      "          sources: ['code'],"
+    ]
+  },
+  {
+    "term": "components",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 5,
+    "sources": [
+      "comments",
+      "source_code"
+    ],
+    "sampleContexts": [
+      "// Export core components",
+      "export type { TermManager } from './components/TermManager';",
+      "import { TermManagerImpl as TermManager } from './components/TermManager';"
+    ]
+  },
+  {
+    "term": "generated",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 4,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  constructor(basePath: string = './generated') {",
+      "          generated_at: new Date().toISOString(),",
+      "          generated_at: new Date().toISOString(),"
+    ]
+  },
+  {
+    "term": "contexts",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 4,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  contexts?: string[];  // 上下文信息",
+      "      contexts: ['in code', 'in comments'],",
+      "    expect(term.contexts).toEqual(['in code', 'in comments']);"
+    ]
+  },
+  {
+    "term": "boolean",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 4,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  includeVariations?: boolean; // 是否包含变体",
+      "  isTermInDictionary(term: string, domains?: string[]): boolean;",
+      "  private isInitialized: boolean = false;"
+    ]
+  },
+  {
+    "term": "documentation",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "      sources: ['codebase', 'documentation'],",
+      "    expect(term.sources).toEqual(['codebase', 'documentation']);",
+      "        sources: ['documentation'],"
+    ]
+  },
+  {
+    "term": "Layer",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 3,
+    "sources": [],
+    "sampleContexts": [
+      "interface StorageLayer {",
+      "  private storage: StorageLayer;",
+      "  constructor(storage: StorageLayer) {"
+    ]
+  },
+  {
+    "term": "Me",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "        text: 'DeleteMe',",
+      "      expect(terms[0].text).toBe('DeleteMe');"
+    ]
+  },
+  {
+    "term": "Truthy",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "    expect(term.createdAt).toBeTruthy();",
+      "    expect(term.updatedAt).toBeTruthy();"
+    ]
+  },
+  {
+    "term": "Docker",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "        text: 'Docker',",
+      "      expect(termManager.getTermConfidence('Docker')).toBe(0.75);"
+    ]
+  },
+  {
+    "term": "Added",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "    console.log(`Added term: ${term.text} to domains: ${domains.join(', ')}`);"
+    ]
+  },
+  {
+    "term": "Model",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "describe('Term Model', () => {"
+    ]
+  },
+  {
+    "term": "Git",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "      sources: ['GitHub'],"
+    ]
+  },
+  {
+    "term": "Hub",
+    "confidence": 70,
+    "category": "technical",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "      sources: ['GitHub'],"
+    ]
+  },
+  {
+    "term": "In",
+    "confidence": 65,
+    "category": "domain_specific",
+    "occurrences": 20,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  isTermInDictionary(term: string, domains?: string[]): boolean;",
+      "  isTermInDictionary(term: string, domains?: string[]): boolean {",
+      "      contexts: ['in code', 'in comments'],"
+    ]
+  },
+  {
+    "term": "Each",
+    "confidence": 65,
+    "category": "domain_specific",
+    "occurrences": 12,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  beforeEach(() => {",
+      "    testFiles.forEach(file => {",
+      "    beforeEach(async () => {"
+    ]
+  },
+  {
+    "term": "By",
+    "confidence": 65,
+    "category": "domain_specific",
+    "occurrences": 7,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  sortBy?: 'frequency' | 'confidence' | 'createdAt'; // 排序方式",
+      "      // Verify initialization by checking if term is in dictionary",
+      "        domains: [], // Will be set by addTerm"
+    ]
+  },
+  {
+    "term": "stringify",
+    "confidence": 65,
+    "category": "domain_specific",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "      fs.writeFileSync(this.mainDictionaryPath, JSON.stringify(mainDict, null, 2));",
+      "      fs.writeFileSync(this.mainDictionaryPath, JSON.stringify(mainDict, null, 2));",
+      "    fs.writeFileSync(domainFilePath, JSON.stringify(domainDict, null, 2));"
+    ]
+  },
+  {
+    "term": "tags",
+    "confidence": 65,
+    "category": "domain_specific",
+    "occurrences": 4,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  tags?: string[];      // 标签",
+      "      tags: ['programming', 'language']",
+      "    expect(term.tags).toEqual(['programming', 'language']);"
+    ]
+  },
+  {
+    "term": "existent",
+    "confidence": 65,
+    "category": "domain_specific",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should return empty array for non-existent domain', async () => {",
+      "    it('should return false for non-existent term', () => {",
+      "      expect(termManager.isTermInDictionary('NonExistent')).toBe(false);"
+    ]
+  },
+  {
+    "term": "typescript",
+    "confidence": 65,
+    "category": "domain_specific",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "      variations: ['typescript', 'TS'],",
+      "    expect(term.variations).toEqual(['typescript', 'TS']);",
+      "      id: 'typescript-123',"
+    ]
+  },
+  {
+    "term": "implementations",
+    "confidence": 65,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "// Export implementations",
+      "Export implementations"
+    ]
+  },
+  {
+    "term": "information",
+    "confidence": 65,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "// Version information",
+      "Version information"
+    ]
+  },
+  {
+    "term": "implementation",
+    "confidence": 65,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "// Mock Storage implementation",
+      "Mock Storage implementation"
+    ]
+  },
+  {
+    "term": "initialization",
+    "confidence": 65,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "      // Verify initialization by checking if term is in dictionary",
+      "Verify initialization by checking if term is in dictionary"
+    ]
+  },
+  {
+    "term": "Be",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 49,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "      expect(fs.existsSync(mainDictPath)).toBe(true);",
+      "      expect(dict.metadata.total_terms).toBe(1);",
+      "      expect(dict.terms.length).toBe(1);"
+    ]
+  },
+  {
+    "term": "All",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 15,
+    "sources": [],
+    "sampleContexts": [
+      "        return this.loadAllDomainTerms();",
+      "  private async loadAllDomainTerms(): Promise<Term[]> {",
+      "      const allTerms: Term[] = [];"
+    ]
+  },
+  {
+    "term": "push",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 5,
+    "sources": [],
+    "sampleContexts": [
+      "        terms.push(term);",
+      "            allTerms.push(term);",
+      "      domainDict.terms.push(term);"
+    ]
+  },
+  {
+    "term": "ai",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 5,
+    "sources": [],
+    "sampleContexts": [
+      "      const domains = ['frontend', 'backend', 'ai', 'other'];",
+      "      path.join(testDir, 'terms-ai.json'),",
+      "      const aiTerms = await termManager.loadDomainTerms('ai');"
+    ]
+  },
+  {
+    "term": "let",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 5,
+    "sources": [],
+    "sampleContexts": [
+      "    let domainDict: DomainDictionary = {",
+      "  let storage: FileStorage;",
+      "      let terms = await storage.loadTerms();"
+    ]
+  },
+  {
+    "term": "count",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 5,
+    "sources": [],
+    "sampleContexts": [
+      "      count: 0,",
+      "    domainDict.count = domainDict.terms.length;",
+      "      domainDict.count = domainDict.terms.length;"
+    ]
+  },
+  {
+    "term": "clear",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 5,
+    "sources": [],
+    "sampleContexts": [
+      "      this.clearCache();",
+      "    this.clearCache();",
+      "  private clearCache(): void {"
+    ]
+  },
+  {
+    "term": "vue",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 5,
+    "sources": [],
+    "sampleContexts": [
+      "        id: 'vue-1',",
+      "        text: 'Vue',",
+      "      expect(termManager.isTermInDictionary('Vue')).toBe(true);"
+    ]
+  },
+  {
+    "term": "total",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "          total_terms: terms.length",
+      "          total_terms: terms.length",
+      "  total_terms: number;"
+    ]
+  },
+  {
+    "term": "write",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "      fs.writeFileSync(this.mainDictionaryPath, JSON.stringify(mainDict, null, 2));",
+      "      fs.writeFileSync(this.mainDictionaryPath, JSON.stringify(mainDict, null, 2));",
+      "    fs.writeFileSync(domainFilePath, JSON.stringify(domainDict, null, 2));"
+    ]
+  },
+  {
+    "term": "null",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "      fs.writeFileSync(this.mainDictionaryPath, JSON.stringify(mainDict, null, 2));",
+      "      fs.writeFileSync(this.mainDictionaryPath, JSON.stringify(mainDict, null, 2));",
+      "    fs.writeFileSync(domainFilePath, JSON.stringify(domainDict, null, 2));"
+    ]
+  },
+  {
+    "term": "throw",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "      throw new Error('Failed to save term');",
+      "      throw new Error('Failed to delete term');",
+      "      throw new Error('Failed to initialize TermManager');"
+    ]
+  },
+  {
+    "term": "update",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "  updateTerms(): Promise<void>;",
+      "  async updateTerms(): Promise<void> {",
+      "      console.error('Failed to update terms:', error);"
+    ]
+  },
+  {
+    "term": "log",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "      console.log(`TermManager initialized with ${allTerms.length} terms`);",
+      "    console.log(`Added term: ${term.text} to domains: ${domains.join(', ')}`);",
+      "    console.log(`Removed term: ${term.text}`);"
+    ]
+  },
+  {
+    "term": "non",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should return empty array for non-existent domain', async () => {",
+      "    it('should return false for non-existent term', () => {",
+      "      expect(termManager.isTermInDictionary('NonExistent')).toBe(false);"
+    ]
+  },
+  {
+    "term": "projects",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 3,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "          source_projects: 1, // 简化处理",
+      "          source_projects: 1,",
+      "  source_projects: number;"
+    ]
+  },
+  {
+    "term": "constructor",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "  constructor(basePath: string = './generated') {",
+      "  constructor(storage: StorageLayer) {"
+    ]
+  },
+  {
+    "term": "dictionaries",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should save a term to domain dictionaries', async () => {",
+      "    it('should delete a term from all dictionaries', async () => {"
+    ]
+  },
+  {
+    "term": "programming",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "      tags: ['programming', 'language']",
+      "    expect(term.tags).toEqual(['programming', 'language']);"
+    ]
+  },
+  {
+    "term": "checking",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "      // Verify initialization by checking if term is in dictionary",
+      "Verify initialization by checking if term is in dictionary"
+    ]
+  },
+  {
+    "term": "different",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "      // Add terms to different domains",
+      "Add terms to different domains"
+    ]
+  },
+  {
+    "term": "include",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  includeVariations?: boolean; // 是否包含变体"
+    ]
+  },
+  {
+    "term": "nonexistent",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "      const terms = await storage.loadTerms('nonexistent');"
+    ]
+  },
+  {
+    "term": "infrastructure",
+    "confidence": 60,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "        sources: ['infrastructure'],"
+    ]
+  },
+  {
+    "term": "implements",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 3,
+    "sources": [],
+    "sampleContexts": [
+      "export class FileStorage implements Storage {",
+      "export class TermManagerImpl implements TermManager {",
+      "class MockStorage implements Storage {"
+    ]
+  },
+  {
+    "term": "source",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 3,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "          source_projects: 1, // 简化处理",
+      "          source_projects: 1,",
+      "  source_projects: number;"
+    ]
+  },
+  {
+    "term": "generate",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 3,
+    "sources": [],
+    "sampleContexts": [
+      "      term.id = this.generateId(term.text);",
+      "  private generateId(text: string): string {",
+      "      term.id = this.generateId(term.text);"
+    ]
+  },
+  {
+    "term": "includes",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 3,
+    "sources": [],
+    "sampleContexts": [
+      "            domains.includes(domain)",
+      "            domains.includes(domain)",
+      "      return this.terms.filter(term => term.domains.includes(domain));"
+    ]
+  },
+  {
+    "term": "core",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "// Export core components",
+      "Export core components"
+    ]
+  },
+  {
+    "term": "loading",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "      console.error('Error loading terms:', error);",
+      "      console.error('Error loading all domain terms:', error);"
+    ]
+  },
+  {
+    "term": "recursive",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "      fs.mkdirSync(this.basePath, { recursive: true });",
+      "      fs.mkdirSync(testDir, { recursive: true });"
+    ]
+  },
+  {
+    "term": "sort",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  sortBy?: 'frequency' | 'confidence' | 'createdAt'; // 排序方式",
+      "      expect(terms.map(t => t.text).sort()).toEqual(['NodeJS', 'TypeScript']);"
+    ]
+  },
+  {
+    "term": "specific",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should load terms for a specific domain', async () => {",
+      "    it('should load terms for a specific domain', async () => {"
+    ]
+  },
+  {
+    "term": "codebase",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "      sources: ['codebase', 'documentation'],",
+      "    expect(term.sources).toEqual(['codebase', 'documentation']);"
+    ]
+  },
+  {
+    "term": "properties",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "  it('should accept optional properties', () => {",
+      "  it('should handle minimal term with required properties', () => {"
+    ]
+  },
+  {
+    "term": "comments",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "      contexts: ['in code', 'in comments'],",
+      "    expect(term.contexts).toEqual(['in code', 'in comments']);"
+    ]
+  },
+  {
+    "term": "language",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "      tags: ['programming', 'language']",
+      "    expect(term.tags).toEqual(['programming', 'language']);"
+    ]
+  },
+  {
+    "term": "method",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  // Helper method to initialize with test data",
+      "Helper method to initialize with test data"
+    ]
+  },
+  {
+    "term": "default",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "export default {"
+    ]
+  },
+  {
+    "term": "deleting",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "      console.error('Error deleting term:', error);"
+    ]
+  },
+  {
+    "term": "reading",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "        console.error(`Error reading domain dictionary ${domain}:`, e);"
+    ]
+  },
+  {
+    "term": "updating",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "      console.error(`Error updating domain dictionary ${domain}:`, e);"
+    ]
+  },
+  {
+    "term": "limit",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  limit?: number;          // 返回结果数量限制"
+    ]
+  },
+  {
+    "term": "replace",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "    return `${text.toLowerCase().replace(/\\s+/g, '-')}-${Date.now()}`;"
+    ]
+  },
+  {
+    "term": "dirname",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "  const testDir = path.join(__dirname, 'test-data');"
+    ]
+  },
+  {
+    "term": "readdir",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "      const files = fs.readdirSync(testDir);"
+    ]
+  },
+  {
+    "term": "testterm",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "        variations: ['testterm'],"
+    ]
+  },
+  {
+    "term": "optional",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "  it('should accept optional properties', () => {"
+    ]
+  },
+  {
+    "term": "minimal",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "  it('should handle minimal term with required properties', () => {"
+    ]
+  },
+  {
+    "term": "required",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "  it('should handle minimal term with required properties', () => {"
+    ]
+  },
+  {
+    "term": "multiple",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should add a term to multiple domains', async () => {"
+    ]
+  },
+  {
+    "term": "framework",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "        sources: ['framework'],"
+    ]
+  },
+  {
+    "term": "variation",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should find a term by variation', () => {"
+    ]
+  },
+  {
+    "term": "respect",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should respect domain filtering', () => {"
+    ]
+  },
+  {
+    "term": "filtering",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should respect domain filtering', () => {"
+    ]
+  },
+  {
+    "term": "correct",
+    "confidence": 55,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should return the correct confidence for a term', () => {"
+    ]
+  },
+  {
+    "term": "class",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 3,
+    "sources": [],
+    "sampleContexts": [
+      "export class FileStorage implements Storage {",
+      "export class TermManagerImpl implements TermManager {",
+      "class MockStorage implements Storage {"
+    ]
+  },
+  {
+    "term": "filter",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 3,
+    "sources": [],
+    "sampleContexts": [
+      "      domainDict.terms = domainDict.terms.filter(t => t.id !== termId);",
+      "      return this.terms.filter(term => term.domains.includes(domain));",
+      "    this.terms = this.terms.filter(term => term.id !== termId);"
+    ]
+  },
+  {
+    "term": "build",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 3,
+    "sources": [],
+    "sampleContexts": [
+      "      this.buildCache(allTerms);",
+      "      this.buildCache(allTerms);",
+      "  private buildCache(terms: Term[]): void {"
+    ]
+  },
+  {
+    "term": "values",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 3,
+    "sources": [],
+    "sampleContexts": [
+      "    for (const cachedTerm of this.termsCache.values()) {",
+      "    for (const cachedTerm of this.termsCache.values()) {",
+      "    for (const cachedTerm of this.termsCache.values()) {"
+    ]
+  },
+  {
+    "term": "mkdir",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "      fs.mkdirSync(this.basePath, { recursive: true });",
+      "      fs.mkdirSync(testDir, { recursive: true });"
+    ]
+  },
+  {
+    "term": "now",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "      console.log(`Updated terms, now have ${allTerms.length} terms`);",
+      "    return `${text.toLowerCase().replace(/\\s+/g, '-')}-${Date.now()}`;"
+    ]
+  },
+  {
+    "term": "unlink",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "        fs.unlinkSync(file);",
+      "        fs.unlinkSync(path.join(testDir, file));"
+    ]
+  },
+  {
+    "term": "empty",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should return empty array for non-existent domain', async () => {",
+      "    it('should return empty array for domain with no terms', async () => {"
+    ]
+  },
+  {
+    "term": "array",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should return empty array for non-existent domain', async () => {",
+      "    it('should return empty array for domain with no terms', async () => {"
+    ]
+  },
+  {
+    "term": "ng",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "        variations: ['angular', 'ng'],",
+      "      expect(termManager.isTermInDictionary('ng')).toBe(true);"
+    ]
+  },
+  {
+    "term": "devops",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "        domains: ['devops'],",
+      "      await termManager.addTerm(term, ['devops']);"
+    ]
+  },
+  {
+    "term": "saving",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "      console.error('Error saving term:', error);"
+    ]
+  },
+  {
+    "term": "splice",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "      terms.splice(termIndex, 1);"
+    ]
+  },
+  {
+    "term": "size",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "        if (termIds.size === 0) {"
+    ]
+  },
+  {
+    "term": "after",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "  afterAll(() => {"
+    ]
+  },
+  {
+    "term": "rmdir",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "      fs.rmdirSync(testDir);"
+    ]
+  },
+  {
+    "term": "create",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "  it('should create a valid term object', () => {"
+    ]
+  },
+  {
+    "term": "valid",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "  it('should create a valid term object', () => {"
+    ]
+  },
+  {
+    "term": "object",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "  it('should create a valid term object', () => {"
+    ]
+  },
+  {
+    "term": "accept",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "  it('should accept optional properties', () => {"
+    ]
+  },
+  {
+    "term": "handle",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "  it('should handle minimal term with required properties', () => {"
+    ]
+  },
+  {
+    "term": "sample",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "      sources: ['sample'],"
+    ]
+  },
+  {
+    "term": "exact",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should find a term by exact text', () => {"
+    ]
+  },
+  {
+    "term": "no",
+    "confidence": 50,
+    "category": "domain_specific",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should return empty array for domain with no terms', async () => {"
+    ]
+  },
+  {
+    "term": "at",
+    "confidence": 45,
+    "category": "domain_specific",
+    "occurrences": 40,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "          generated_at: new Date().toISOString(),",
+      "          generated_at: new Date().toISOString(),",
+      "  createdAt: string;    // 创建时间"
+    ]
+  },
+  {
+    "term": "from",
+    "confidence": 45,
+    "category": "domain_specific",
+    "occurrences": 38,
+    "sources": [
+      "source_code"
+    ],
+    "sampleContexts": [
+      "export type { TermManager } from './components/TermManager';",
+      "export type { Term } from './models/Term';",
+      "export type { DictionaryMetadata } from './models/DictionaryMetadata';"
+    ]
+  },
+  {
+    "term": "is",
+    "confidence": 45,
+    "category": "domain_specific",
+    "occurrences": 20,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "  isTermInDictionary(term: string, domains?: string[]): boolean;",
+      "  private isInitialized: boolean = false;",
+      "    if (this.isInitialized) {"
+    ]
+  },
+  {
+    "term": "with",
+    "confidence": 45,
+    "category": "domain_specific",
+    "occurrences": 6,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "      console.log(`TermManager initialized with ${allTerms.length} terms`);",
+      "  it('should handle minimal term with required properties', () => {",
+      "  // Helper method to initialize with test data"
+    ]
+  },
+  {
+    "term": "Will",
+    "confidence": 45,
+    "category": "domain_specific",
+    "occurrences": 2,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "        domains: [], // Will be set by addTerm",
+      "Will be set by addTerm"
+    ]
+  },
+  {
+    "term": "to",
+    "confidence": 40,
+    "category": "domain_specific",
+    "occurrences": 116,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "          generated_at: new Date().toISOString(),",
+      "        await this.saveToDomainDictionary(term, domain);",
+      "      throw new Error('Failed to save term');"
+    ]
+  },
+  {
+    "term": "this",
+    "confidence": 40,
+    "category": "domain_specific",
+    "occurrences": 63,
+    "sources": [],
+    "sampleContexts": [
+      "    this.basePath = basePath;",
+      "    this.mainDictionaryPath = path.join(basePath, 'terms.json');",
+      "    this.ensureDirectoryExists();"
+    ]
+  },
+  {
+    "term": "if",
+    "confidence": 40,
+    "category": "domain_specific",
+    "occurrences": 36,
+    "sources": [
+      "comments"
+    ],
+    "sampleContexts": [
+      "      if (domain) {",
+      "        if (fs.existsSync(domainFilePath)) {",
+      "        if (fs.existsSync(this.mainDictionaryPath)) {"
+    ]
+  },
+  {
+    "term": "for",
+    "confidence": 40,
+    "category": "domain_specific",
+    "occurrences": 21,
+    "sources": [],
+    "sampleContexts": [
+      "      for (const domain of term.domains) {",
+      "      for (const domain of term.domains) {",
+      "      for (const domain of domains) {"
+    ]
+  },
+  {
+    "term": "of",
+    "confidence": 40,
+    "category": "domain_specific",
+    "occurrences": 13,
+    "sources": [],
+    "sampleContexts": [
+      "      for (const domain of term.domains) {",
+      "      for (const domain of term.domains) {",
+      "      for (const domain of domains) {"
+    ]
+  },
+  {
+    "term": "else",
+    "confidence": 40,
+    "category": "domain_specific",
+    "occurrences": 6,
+    "sources": [],
+    "sampleContexts": [
+      "      } else {",
+      "      } else {",
+      "    } else {"
+    ]
+  },
+  {
+    "term": "as",
+    "confidence": 35,
+    "category": "common",
+    "occurrences": 5,
+    "sources": [],
+    "sampleContexts": [
+      "import { TermManagerImpl as TermManager } from './components/TermManager';",
+      "import * as fs from 'fs';",
+      "import * as path from 'path';"
+    ]
+  },
+  {
+    "term": "some",
+    "confidence": 30,
+    "category": "common",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "          const hasMatchingDomain = cachedTerm.domains.some(domain => ",
+      "      if (cachedTerm.variations.some(v => v.toLowerCase() === term.toLowerCase())) {",
+      "          const hasMatchingDomain = cachedTerm.domains.some(domain => "
+    ]
+  },
+  {
+    "term": "the",
+    "confidence": 30,
+    "category": "common",
+    "occurrences": 4,
+    "sources": [],
+    "sampleContexts": [
+      "    it('should save a term to the main dictionary', async () => {",
+      "    it('should add a new term to the dictionary', async () => {",
+      "    it('should remove a term from the dictionary', async () => {"
+    ]
+  },
+  {
+    "term": "other",
+    "confidence": 20,
+    "category": "common",
+    "occurrences": 2,
+    "sources": [],
+    "sampleContexts": [
+      "      const domains = ['frontend', 'backend', 'ai', 'other'];",
+      "      path.join(testDir, 'terms-other.json')"
+    ]
+  },
+  {
+    "term": "have",
+    "confidence": 20,
+    "category": "common",
+    "occurrences": 1,
+    "sources": [],
+    "sampleContexts": [
+      "      console.log(`Updated terms, now have ${allTerms.length} terms`);"
+    ]
+  }
 ]

@@ -1,40 +1,40 @@
-测试计划（草案）
+Test Plan (Draft)
 
-目标：验证基于 Code Spell Checker 的优化是否满足项目规划中的验收标准：
-- 术语误报率 ≤ 10%
-- 修复建议 Top1 命中率 ≥ 80%
-- 修复响应时间 ≤ 2 秒/次
-- 支持中文（拼音）和日文分词检查
+Objective: Verify whether the optimizations based on Code Spell Checker meet the acceptance criteria in the project plan:
+- Technical term false positive rate ≤ 10%
+- Top1 hit rate for correction suggestions ≥ 80%
+- Correction response time ≤ 2 seconds/operation
+- Support for Chinese (Pinyin) and Japanese word segmentation checking
 
-环境：
-- 操作系统：Windows 10/11（PowerShell）、Ubuntu、macOS
-- VS Code：最新稳定版
-- 节点环境：Node >= 20（CI 环境）
+Environment:
+- Operating Systems: Windows 10/11 (PowerShell), Ubuntu, macOS
+- VS Code: Latest stable version
+- Node.js environment: Node >= 20 (CI environment)
 
-测试类型与用例优先级：
-1. 冒烟测试（必做）
-   - 能否安装扩展（本地 VSIX 或 调试模式）
-   - 核心拼写检查能否正常运行（示例文件）
-2. 单元测试（自动化）
-   - 词库加载模块：加载成功、空词库处理、格式异常处理
-   - 候选词生成：算法边界、性能测试
-3. 集成测试
-   - 多语言支持：中文拼音示例、日文变量名示例
-   - 一键修复：单词替换成功、回退/撤销支持
-4. 性能测试
-   - 大文件扫描时间与内存消耗
-   - 词库加载时间（目标：快速加载）
+Test Types and Use Case Priorities:
+1. Smoke Tests (Must-do)
+   - Ability to install the extension (local VSIX or debug mode)
+   - Core spell checking functionality with sample files
+2. Unit Tests (Automated)
+   - Term dictionary loading module: successful loading, empty dictionary handling, format error handling
+   - Candidate word generation: algorithm boundaries, performance testing
+3. Integration Tests
+   - Multi-language support: Chinese Pinyin examples, Japanese variable name examples
+   - One-click correction: successful word replacement, rollback/undo support
+4. Performance Tests
+   - Large file scanning time and memory consumption
+   - Dictionary loading time (target: fast loading)
 
-验收准则：
-- 所有冒烟测试通过
-- 自动化测试覆盖关键模块（单测通过）
-- CI 能够在 PR 上触发并运行测试
+Acceptance Criteria:
+- All smoke tests pass
+- Automated tests cover key modules (unit tests pass)
+- CI can be triggered on PRs to run tests
 
-执行与责任：
-- QA（我）负责冒烟与集成测试执行，记录问题并回归；
-- 开发负责修复与单元测试覆盖；
-- 组长负责里程碑、合并与发布决策。
+Execution and Responsibilities:
+- QA is responsible for smoke and integration test execution, issue recording, and regression testing;
+- Development team is responsible for fixes and unit test coverage;
+- Team lead is responsible for milestones, merges, and release decisions.
 
-后续动作建议：
-- 在 CI 中配置 Node 20 环境并执行上游构建与测试（若在本仓库直接开发，则另行调整工作流）
-- 补充具体测试数据与样本文件放在 `qa/sample-workspaces/`
+Recommended Next Steps:
+- Configure Node 20 environment in CI and execute upstream build and tests (adjust workflow if developing directly in this repository)
+- Add specific test data and sample files in `qa/sample-workspaces/`
