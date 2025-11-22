@@ -1,0 +1,188 @@
+基于 Sprint 1 任务的 Python 实现，以下是所有需要提交到分支 sprint1-multilang-integration-python-dingxiyuan 的文件列表。文件路径基于项目结构（docs/sprint1/ 用于文档，src/ 用于源代码，其他用于配置）。这些文件覆盖了调研报告、接口分析、集成方案、原型代码和配置示例，确保交付物完整。
+1. 文档文件（docs/sprint1/ 目录下）
+
+pinyin_survey.md: 中文拼音库调研报告（推荐 pypinyin 等）。
+nagisa_survey.md: 日文分词库调研报告（推荐 nagisa 等）。
+cspell_interfaces.md: Code Spell Checker 核心接口分析（包括 Python 等效）。
+multilang_integration.md: 多语言集成方案文档（含架构图、集成步骤和性能优化）。
+
+2. 源代码文件（src/ 目录下）
+
+dict/multi_lang_dictionary.py: 词典加载器实现（MultiLangDictionary 类，加载中/日词库，支持 has 方法检查）。
+spellcheck/pinyin_fuzzy_matcher.py: 拼音模糊匹配实现（is_pinyin_match 函数，用于降低误报）。
+extension.py: 扩展入口（provide_code_actions 函数，等效于 Code Action 注入，用于建议修复）。
+
+3. 配置文件
+
+cspell.example.json: 示例 cspell 配置（支持多语言和词典定义）。
+
+以下是 **Sprint 1 任务交付物** 中 **每个文件** 的 **完整说明**，包括文件路径、作用、核心内容、与项目目标的关联性，以及使用方式。所有文件均已按 Python 实现适配，满足“调研 + 分析 + 方案 + 原型代码”要求。
+
+---
+
+### 1. `docs/sprint1/pinyin_survey.md`  
+**文件路径**：`docs/sprint1/pinyin_survey.md`  
+**文件类型**：调研报告（Markdown）  
+**作用**：  
+- 完成任务“**调研中文拼音库**”  
+- 对比多个 Python 拼音库，推荐 `pypinyin` 作为主方案  
+- 提供安装、使用示例、优缺点分析、性能评估  
+
+**核心内容**：  
+- 推荐 `pypinyin`：轻量、多音字支持、自定义词典  
+- 备选 `hanzipy`：适合汉字结构分析  
+- 示例代码 + 拼写检查场景适用性分析  
+- 结论：集成后可将拼音误报（如 `zhongwen` → `中文`）降为 0  
+
+**与目标关联**：  
+> 降低 **中文技术术语误报率 ≤10%**，支持拼音输入识别
+
+---
+
+### 2. `docs/sprint1/nagisa_survey.md`  
+**文件路径**：`docs/sprint1/nagisa_survey.md`  
+**文件类型**：调研报告（Markdown）  
+**作用**：  
+- 完成任务“**调研日文分词库**”  
+- 推荐 `nagisa` 作为日文分词主方案  
+- 提供 API 示例、性能对比、OOV 处理能力  
+
+**核心内容**：  
+- 推荐 `nagisa`：RNN 模型、无 native 依赖、高精度  
+- 备选 `fugashi`：MeCab 包装，速度极快  
+- 支持自训练 + 词性标注  
+- 示例：`Pythonで` → `['Python', 'で']`  
+
+**与目标关联**：  
+> 支持 **日文检查**，识别日文技术术语，降低分词误报
+
+---
+
+### 3. `docs/sprint1/cspell_interfaces.md`  
+**文件路径**：`docs/sprint1/cspell_interfaces.md`  
+**文件类型**：接口分析文档（Markdown）  
+**作用**：  
+- 完成任务“**分析插件核心接口**”  
+- 解析 cspell 主入口 `spellCheckDocument`  
+- 提供 **Python 等效实现方案**（`pyspellchecker` + subprocess）  
+
+**核心内容**：  
+- 表格列出 cspell 核心模块、函数、参数、返回值  
+- Python 等效代码示例  
+- 扩展点建议：`CodeActionProvider` → `provide_code_actions`  
+
+**与目标关联**：  
+> 明确如何 **注入多语言逻辑** 和 **一键修复功能**
+
+---
+
+### 4. `docs/sprint1/multilang_integration.md`  
+**文件路径**：`docs/sprint1/multilang_integration.md`  
+**文件类型**：集成方案文档（Markdown）  
+**作用**：  
+- 完成任务“**完成多语言集成方案**”  
+- 提供完整架构图、4 步集成流程、性能优化表  
+- 包含所有代码模块调用关系  
+
+**核心内容**：  
+- 文字版架构图  
+- 4 个集成步骤（词典加载、模糊匹配、建议生成、配置支持）  
+- 性能优化表（目标 ≤2s/文件）  
+- 结论与下一步建议  
+
+**与目标关联**：  
+> 实现 **中/日文检查 + 修复时间 ≤2s**
+
+---
+
+### 5. `src/dict/multi_lang_dictionary.py`  
+**文件路径**：`src/dict/multi_lang_dictionary.py`  
+**文件类型**：Python 源代码  
+**作用**：  
+- **词典加载器**：加载中/日技术术语词库  
+- 提供 `has(word, locale)` 接口供检查器调用  
+
+**核心内容**：  
+- `MultiLangDictionary` 类  
+- `init()`：从 `zh_tech.json` / `ja_tech.json` 加载  
+- `has()`：  
+  - 中文 → `set` 直接查  
+  - 日文 → `nagisa` 分词后查  
+- 异常处理 + 编码指定  
+
+**与目标关联**：  
+> 实现 **动态多语言词典支持**
+
+---
+
+### 6. `src/spellcheck/pinyin_fuzzy_matcher.py`  
+**文件路径**：`src/spellcheck/pinyin_fuzzy_matcher.py`  
+**文件类型**：Python 源代码  
+**作用**：  
+- **拼音模糊匹配**：将拼音输入识别为合法中文  
+- 核心函数 `is_pinyin_match(input, target)`  
+
+**核心内容**：  
+- 无声调、忽略大小写、支持词组  
+- 示例：`"zhongwen"` → `"中文"` → `True`  
+- 提供带声调版本（可选）  
+- 测试用例（`__main__`）  
+
+**与目标关联**：  
+> **降低中文拼音误报**（如 `pythn` → `Python` 可扩展）
+
+---
+
+### 7. `src/extension.py`  
+**文件路径**：`src/extension.py`  
+**文件类型**：Python 源代码  
+**作用**：  
+- **扩展主入口**：等效 VS Code `CodeActionProvider`  
+- 提供 `provide_code_actions()` 返回误报 + 建议  
+- 实现“一键修复”逻辑  
+
+**核心内容**：  
+- `SpellCheckExtension` 类  
+- 整合：`pyspellchecker` + `MultiLangDictionary` + `pinyin_fuzzy_matcher`  
+- 建议数量 ≤5  
+- `apply_suggestion()` 模拟修复  
+- CLI 测试示例  
+
+**与目标关联**：  
+> 实现 **一键修复 UI / CLI 功能**
+
+---
+
+### 8. `cspell.example.json`  
+**文件路径**：`cspell.example.json`（项目根目录）  
+**文件类型**：配置文件（JSON）  
+**作用**：  
+- 示例 cspell 配置，支持多语言和自定义词典  
+- 可直接被 VS Code 识别  
+
+**核心内容**：  
+- `language: "en,zh,ja"`  
+- 定义 3 个词典：`tech-terms`, `zh-tech`, `ja-tech`  
+- `words` / `ignoreWords` 白名单  
+- `suggestionsTimeout: 2000`, `numSuggestions: 5`  
+- `languageSettings` + `overrides` 按文件类型应用  
+
+**与目标关联**：  
+> 插件配置支持 **多语言 + 性能限制**
+
+---
+
+### 总结：8 个文件完整闭环
+
+| 文件 | 任务对应 | 目标达成 |
+|------|----------|----------|
+| `pinyin_survey.md` | 调研中文拼音库 | 支持拼音输入 |
+| `nagisa_survey.md` | 调研日文分词库 | 支持日文分词 |
+| `cspell_interfaces.md` | 分析核心接口 | 明确扩展点 |
+| `multilang_integration.md` | 完成集成方案 | 架构 + 步骤 + 性能 |
+| `multi_lang_dictionary.py` | 词典加载 | 动态中/日词库 |
+| `pinyin_fuzzy_matcher.py` | 模糊匹配 | 降低误报 |
+| `extension.py` | 扩展入口 | 一键修复 |
+| `cspell.example.json` | 配置支持 | 多语言启用 |
+
+---                                                                                                                                       
