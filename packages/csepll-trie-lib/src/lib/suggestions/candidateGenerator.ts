@@ -24,27 +24,38 @@ export interface CandidateGeneratorOptions {
 
 function normalizeToken(s: string, toLower = true): string {
   if (!s) return s;
-  // NFC normalization and trim
-  let t = s.normalize('NFC').trim();
+  // Only trim and lowercase, normalization is handled at higher level
+  let t = s.trim();
   if (toLower) t = t.toLowerCase();
   return t;
 }
 
+// Remove diacritics / combining marks: normalize to NFD then strip marks then recompose (NFC)
+function removeDiacritics(s: string): string {
+  if (!s) return s;
+  // decompose, remove combining marks, recompose
+  return s.normalize('NFD').replaceAll(/\p{M}/gu, '').normalize('NFC');
+}
+
+
 // 带 maxDistance 的 Levenshtein（带早停，基于原回答的带宽DP实现）
 export function levenshteinDistance(a: string, b: string, maxDistance: number = Infinity): number {
-  if (a === b) return 0;
-  const n = a.length, m = b.length;
+  // Normalize both strings to NFC for consistent comparison
+  const aNorm = a.normalize('NFC');
+  const bNorm = b.normalize('NFC');
+  if (aNorm === bNorm) return 0;
+  const n = aNorm.length, m = bNorm.length;
   if (Math.abs(n - m) > maxDistance) return Infinity;
   // 特殊处理：如果只有一个字符差异（如é vs e），直接返回距离1
   if (n === m && maxDistance >= 1) {
     let diff = 0;
     for (let i = 0; i < n; i++) {
-      if (a[i] !== b[i]) diff++;
+      if (aNorm[i] !== bNorm[i]) diff++;
       if (diff > maxDistance) break;
     }
     if (diff <= maxDistance) return diff;
   }
-  if (n > m) return levenshteinDistance(b, a, maxDistance);
+  if (n > m) return levenshteinDistance(bNorm, aNorm, maxDistance);
 
   const prev = new Array(n + 1);
   const curr = new Array(n + 1);
@@ -53,7 +64,7 @@ export function levenshteinDistance(a: string, b: string, maxDistance: number = 
 
   for (let j = 1; j <= m; j++) {
     curr[0] = j;
-    const bj = b.charAt(j - 1);
+    const bj = bNorm.charAt(j - 1);
 
     const low = Math.max(1, j - maxDistance);
     const high = Math.min(n, j + maxDistance);
@@ -61,7 +72,7 @@ export function levenshteinDistance(a: string, b: string, maxDistance: number = 
     if (low > 1) curr[low - 1] = Infinity;
 
     for (let i = low; i <= high; i++) {
-      const cost = a.charAt(i - 1) === bj ? 0 : 1;
+      const cost = aNorm.charAt(i - 1) === bj ? 0 : 1;
       const insertion = curr[i - 1] + 1;
       const deletion = prev[i] + 1;
       const substitution = prev[i - 1] + cost;
@@ -85,9 +96,9 @@ export class CandidateGenerator {
   private maxQueueSize: number;
   private shortWordThreshold: number;
 
-  // delete-form -> Set of original words
+  // delete-form -> Set of original words — not required
   private deletes: Map<string, Set<string>> = new Map();
-  // frequency map of original words
+  // frequency map of original words — not required
   private freq: Map<string, number> = new Map();
 
   // simple LRU cache for recent lookup results
@@ -135,21 +146,42 @@ export class CandidateGenerator {
     return results;
   }
 
-  // add one word to structures (word should be normalized already)
+  // add one word to structures (keep original form in the value sets)
   addWord(word: string, count = 1): void {
-    const w = normalizeToken(word, this.useLowercase);
-    if (!w) return;
-    this.freq.set(w, (this.freq.get(w) ?? 0) + (count ?? 1));
-    // also map the exact word itself (helps exact match lookups)
-    if (!this.deletes.has(w)) this.deletes.set(w, new Set());
-    this.deletes.get(w)!.add(w);
+    if (!word) return;
+    // Normalize word to NFC first
+    const original = word.normalize('NFC');
+    this.freq.set(original, (this.freq.get(original) ?? 0) + (count ?? 1));
 
-    const variants = this.generateDeletes(w);
+    // normalized key used for deletes map
+    const key = normalizeToken(original, this.useLowercase);
+    if (!this.deletes.has(key)) this.deletes.set(key, new Set());
+    // store ORIGINAL word in the set so we can return original forms later
+    this.deletes.get(key)!.add(original);
+
+    // Also generate deletes for the normalized key, but map them to original word
+    const variants = this.generateDeletes(key);
     for (const v of variants) {
       if (!this.deletes.has(v)) this.deletes.set(v, new Set());
-      this.deletes.get(v)!.add(w);
+      this.deletes.get(v)!.add(original);
+    }
+
+    // Also add folded (diacritic-removed) key mapping to help accent-insensitive matches
+    const foldedKey = removeDiacritics(key);
+    if (foldedKey !== key) {
+      if (!this.deletes.has(foldedKey)) this.deletes.set(foldedKey, new Set());
+      this.deletes.get(foldedKey)!.add(original);
+    }
+
+    // For words with accents, add a version without accents
+    if (original !== removeDiacritics(original)) {
+      const noAccent = removeDiacritics(original);
+      const noAccentKey = normalizeToken(noAccent, this.useLowercase);
+      if (!this.deletes.has(noAccentKey)) this.deletes.set(noAccentKey, new Set());
+      this.deletes.get(noAccentKey)!.add(original);
     }
   }
+
 
   // build quickly from word list
   buildFromWordList(list: WordCount[]): void {
@@ -225,26 +257,23 @@ export class CandidateGenerator {
       return cached;
     }
 
-    // identifier-splitting heuristic: try smaller tokens first for short identifiers
     const tokens = this.splitIdentifier(input);
-    // we'll check tokens from longest->shortest? choose tokens with higher chance first: shorter tokens are stricter so try longer first
-    tokens.sort((a,b)=>b.length - a.length);
+    tokens.sort((a, b) => b.length - a.length);
 
     const maxDistance = this.getMaxDistanceForWord(input, maxDistanceParam);
 
-    // collect candidate original words using delete forms of input tokens
-    const candidatesMap = new Map<string, number>(); // candidate -> bestEstimateDistance (we'll compute exact later)
-    const queue: string[] = [input];
+    const candidatesMap = new Map<string, number>(); // candidate(originalWord) -> bestEstimateDistance
     const seenQueue = new Set<string>([input]);
+    const queue: string[] = [input];
 
     // generate deletes from input up to maxDistance (BFS)
     for (let depth = 0; depth < maxDistance; depth++) {
       const nextQueue: string[] = [];
       for (const token of queue) {
-        // check mapping
         const bucket = this.deletes.get(token);
         if (bucket) {
           for (const w of bucket) {
+            // w is original word
             candidatesMap.set(w, Infinity);
           }
         }
@@ -271,18 +300,47 @@ export class CandidateGenerator {
       if (bucket) for (const w of bucket) candidatesMap.set(w, Infinity);
     }
 
-    // If no candidates found from delete-forms, fallback: maybe exact match exists
+    // If no candidates found from delete-forms, fallback: maybe exact normalized match exists
     if (candidatesMap.size === 0) {
       const exactBucket = this.deletes.get(input);
       if (exactBucket) for (const w of exactBucket) candidatesMap.set(w, 0);
     }
 
+    // Also check for accent-insensitive matches for normalized inputs
+    if (candidatesMap.size > 0) {
+      const inputFold = removeDiacritics(input);
+      if (inputFold !== input) {
+        const foldedBucket = this.deletes.get(inputFold);
+        if (foldedBucket) {
+          for (const w of foldedBucket) {
+            if (!candidatesMap.has(w)) {
+              candidatesMap.set(w, Infinity);
+            }
+          }
+        }
+      }
+    }
+
     // verify candidates with exact edit distance (bounded)
     const results: Candidate[] = [];
-    for (const cand of candidatesMap.keys()) {
-      const dist = levenshteinDistance(input, cand, maxDistance);
+    for (const candOriginal of candidatesMap.keys()) {
+      const candNorm = normalizeToken(candOriginal, this.useLowercase);
+      const dist = levenshteinDistance(input, candNorm, maxDistance);
       if (dist !== Infinity) {
-        results.push({ term: cand, distance: dist, count: this.freq.get(cand) ?? 1 });
+        results.push({ term: candOriginal, distance: dist, count: this.freq.get(candOriginal) ?? 1 });
+      }
+    }
+
+    // If still empty, fallback: accent-fold scanning (scan dictionary but bounded by maxDistance)
+    if (results.length === 0) {
+      const inputFold = removeDiacritics(input);
+      for (const [orig, cnt] of this.freq.entries()) {
+        const candNorm = normalizeToken(orig, this.useLowercase);
+        const candFold = removeDiacritics(candNorm);
+        const dist = levenshteinDistance(inputFold, candFold, maxDistance);
+        if (dist !== Infinity) {
+          results.push({ term: orig, distance: dist, count: cnt });
+        }
       }
     }
 
@@ -290,23 +348,19 @@ export class CandidateGenerator {
     results.sort((a, b) => {
       if (a.distance !== b.distance) return a.distance - b.distance;
       if (a.count !== b.count) return b.count - a.count;
-      const lenDiffA = Math.abs(a.term.length - (input?.length || 0));
-      const lenDiffB = Math.abs(b.term.length - (input?.length || 0));
+      const lenDiffA = Math.abs(normalizeToken(a.term, this.useLowercase).length - input.length);
+      const lenDiffB = Math.abs(normalizeToken(b.term, this.useLowercase).length - input.length);
       if (lenDiffA !== lenDiffB) return lenDiffA - lenDiffB;
-      return a.term.localeCompare(b.term);
+      return String(a.term).localeCompare(String(b.term));
     });
 
     const final = results.slice(0, this.maxSuggestions);
-    if (!final.length) return final;
 
     // update cache LRU
     this.cache.set(cacheKey, final);
     if (this.cache.size > this.cacheMaxEntries) {
-      // remove oldest entry
       const firstKey = this.cache.keys().next().value;
-      if (firstKey !== undefined) {
-        this.cache.delete(firstKey);
-      }
+      this.cache.delete(firstKey);
     }
 
     return final;
@@ -332,18 +386,24 @@ export function generateCandidates(
   };
 
   const cg = new CandidateGenerator(cgOpts);
+  // Input word will be normalized in addWord
+  const normalizedWord = word;
 
   // Normalize incoming dict: accept string[] or {word,count}[]
-  const list = dict.map(d => (typeof d === 'string' ? { word: d, count: 1 } : d));
+  const list = dict.map(d => {
+    const word = typeof d === 'string' ? d : d.word;
+    const count = typeof d === 'string' ? 1 : d.count ?? 1;
+    return { word, count }; // Normalization now happens in addWord
+  });
 
   // Build index and lookup
   cg.buildFromWordList(list as { word: string; count?: number }[]);
-  const res = cg.lookup(word, options.maxDistance);
+  const res = cg.lookup(normalizedWord, options.maxDistance);
 
   // If no candidates found via delete-forms, fallback to scanning dictionary
   // using the levenshteinDistance with the same maxDistance heuristic.
   if ((!res || res.length === 0) && list.length > 0) {
-    const inputNorm = normalizeToken(word, cgOpts.useLowercase);
+    const inputNorm = normalizeToken(normalizedWord, cgOpts.useLowercase);
     const maxDist = options.maxDistance ?? cg['getMaxDistanceForWord']?.(inputNorm) ?? cgOpts.maxEdit;
     const fallback: Array<{ term: string; distance: number; count: number }> = [];
     for (const item of list) {
