@@ -49,5 +49,8 @@ export function rerankCandidatesByDamerau(input: string, candidates: string[], o
   });
 
   const topK = opts.topK ?? scores.length;
-  return scores.slice(0, topK).map(s => s.word);
+  return scores
+    .filter(s => s.cost <= (opts.maxDistance ?? Infinity))
+    .slice(0, topK)
+    .map(s => s.word);
 }
