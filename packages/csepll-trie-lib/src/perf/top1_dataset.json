@@ -1,0 +1,2002 @@
+[
+  {
+    "input": "ln",
+    "correct": "in"
+  },
+  {
+    "input": "ni",
+    "correct": "in"
+  },
+  {
+    "input": "sy",
+    "correct": "say"
+  },
+  {
+    "input": "saj",
+    "correct": "say"
+  },
+  {
+    "input": "saw",
+    "correct": "say"
+  },
+  {
+    "input": "ofy",
+    "correct": "of"
+  },
+  {
+    "input": "wf",
+    "correct": "of"
+  },
+  {
+    "input": "acces",
+    "correct": "access"
+  },
+  {
+    "input": "n",
+    "correct": "on"
+  },
+  {
+    "input": "o",
+    "correct": "on"
+  },
+  {
+    "input": "n",
+    "correct": "an"
+  },
+  {
+    "input": "aan",
+    "correct": "an"
+  },
+  {
+    "input": "aqademy",
+    "correct": "academy"
+  },
+  {
+    "input": "acadeym",
+    "correct": "academy"
+  },
+  {
+    "input": "acadmey",
+    "correct": "academy"
+  },
+  {
+    "input": "computre",
+    "correct": "computer"
+  },
+  {
+    "input": "acorss",
+    "correct": "across"
+  },
+  {
+    "input": "acros",
+    "correct": "across"
+  },
+  {
+    "input": "or",
+    "correct": "for"
+  },
+  {
+    "input": "folr",
+    "correct": "for"
+  },
+  {
+    "input": "ofr",
+    "correct": "for"
+  },
+  {
+    "input": "fr",
+    "correct": "for"
+  },
+  {
+    "input": "wilh",
+    "correct": "will"
+  },
+  {
+    "input": "áccess",
+    "correct": "access"
+  },
+  {
+    "input": "ym",
+    "correct": "my"
+  },
+  {
+    "input": "y",
+    "correct": "by"
+  },
+  {
+    "input": "yb",
+    "correct": "by"
+  },
+  {
+    "input": "resumje",
+    "correct": "resume"
+  },
+  {
+    "input": "perfomrance",
+    "correct": "performance"
+  },
+  {
+    "input": "ew",
+    "correct": "we"
+  },
+  {
+    "input": "ll",
+    "correct": "all"
+  },
+  {
+    "input": "hsi",
+    "correct": "his"
+  },
+  {
+    "input": "actioc",
+    "correct": "action"
+  },
+  {
+    "input": "n",
+    "correct": "in"
+  },
+  {
+    "input": "dn",
+    "correct": "do"
+  },
+  {
+    "input": "dv",
+    "correct": "do"
+  },
+  {
+    "input": "lo",
+    "correct": "do"
+  },
+  {
+    "input": "no",
+    "correct": "do"
+  },
+  {
+    "input": "od",
+    "correct": "do"
+  },
+  {
+    "input": "wold",
+    "correct": "would"
+  },
+  {
+    "input": "froh",
+    "correct": "from"
+  },
+  {
+    "input": "teir",
+    "correct": "their"
+  },
+  {
+    "input": "theri",
+    "correct": "their"
+  },
+  {
+    "input": "hér",
+    "correct": "her"
+  },
+  {
+    "input": "recgeive",
+    "correct": "receive"
+  },
+  {
+    "input": "leceive",
+    "correct": "receive"
+  },
+  {
+    "input": "eceive",
+    "correct": "receive"
+  },
+  {
+    "input": "hs",
+    "correct": "his"
+  },
+  {
+    "input": "oll",
+    "correct": "all"
+  },
+  {
+    "input": "al",
+    "correct": "all"
+  },
+  {
+    "input": "nthat",
+    "correct": "that"
+  },
+  {
+    "input": "htat",
+    "correct": "that"
+  },
+  {
+    "input": "e",
+    "correct": "he"
+  },
+  {
+    "input": "herj",
+    "correct": "her"
+  },
+  {
+    "input": "hgr",
+    "correct": "her"
+  },
+  {
+    "input": "ont",
+    "correct": "not"
+  },
+  {
+    "input": "ot",
+    "correct": "not"
+  },
+  {
+    "input": "hre",
+    "correct": "her"
+  },
+  {
+    "input": "hee",
+    "correct": "her"
+  },
+  {
+    "input": "in",
+    "correct": "an"
+  },
+  {
+    "input": "ann",
+    "correct": "an"
+  },
+  {
+    "input": "ahve",
+    "correct": "have"
+  },
+  {
+    "input": "thére",
+    "correct": "there"
+  },
+  {
+    "input": "therea",
+    "correct": "there"
+  },
+  {
+    "input": "therer",
+    "correct": "there"
+  },
+  {
+    "input": "aademy",
+    "correct": "academy"
+  },
+  {
+    "input": "caademy",
+    "correct": "academy"
+  },
+  {
+    "input": "ácademy",
+    "correct": "academy"
+  },
+  {
+    "input": "d",
+    "correct": "do"
+  },
+  {
+    "input": "ón",
+    "correct": "on"
+  },
+  {
+    "input": "no",
+    "correct": "on"
+  },
+  {
+    "input": "willn",
+    "correct": "will"
+  },
+  {
+    "input": "ill",
+    "correct": "will"
+  },
+  {
+    "input": "wil",
+    "correct": "will"
+  },
+  {
+    "input": "t",
+    "correct": "at"
+  },
+  {
+    "input": "pt",
+    "correct": "at"
+  },
+  {
+    "input": "here",
+    "correct": "there"
+  },
+  {
+    "input": "ther",
+    "correct": "there"
+  },
+  {
+    "input": "af",
+    "correct": "of"
+  },
+  {
+    "input": "ofv",
+    "correct": "of"
+  },
+  {
+    "input": "fo",
+    "correct": "of"
+  },
+  {
+    "input": "atr",
+    "correct": "at"
+  },
+  {
+    "input": "na",
+    "correct": "an"
+  },
+  {
+    "input": "a",
+    "correct": "an"
+  },
+  {
+    "input": "kéyboard",
+    "correct": "keyboard"
+  },
+  {
+    "input": "kryboard",
+    "correct": "keyboard"
+  },
+  {
+    "input": "kyboard",
+    "correct": "keyboard"
+  },
+  {
+    "input": "dand",
+    "correct": "and"
+  },
+  {
+    "input": "pesume",
+    "correct": "resume"
+  },
+  {
+    "input": "resum",
+    "correct": "resume"
+  },
+  {
+    "input": "resumej",
+    "correct": "resume"
+  },
+  {
+    "input": "an",
+    "correct": "and"
+  },
+  {
+    "input": "ction",
+    "correct": "action"
+  },
+  {
+    "input": "aet",
+    "correct": "at"
+  },
+  {
+    "input": "tis",
+    "correct": "this"
+  },
+  {
+    "input": "thims",
+    "correct": "this"
+  },
+  {
+    "input": "f",
+    "correct": "of"
+  },
+  {
+    "input": "eprformance",
+    "correct": "performance"
+  },
+  {
+    "input": "pérformance",
+    "correct": "performance"
+  },
+  {
+    "input": "ofrom",
+    "correct": "from"
+  },
+  {
+    "input": "frcm",
+    "correct": "from"
+  },
+  {
+    "input": "ave",
+    "correct": "have"
+  },
+  {
+    "input": "havc",
+    "correct": "have"
+  },
+  {
+    "input": "ro",
+    "correct": "or"
+  },
+  {
+    "input": "weu",
+    "correct": "we"
+  },
+  {
+    "input": "b",
+    "correct": "by"
+  },
+  {
+    "input": "wtih",
+    "correct": "with"
+  },
+  {
+    "input": "a",
+    "correct": "as"
+  },
+  {
+    "input": "witv",
+    "correct": "with"
+  },
+  {
+    "input": "witj",
+    "correct": "with"
+  },
+  {
+    "input": "iwth",
+    "correct": "with"
+  },
+  {
+    "input": "comptuer",
+    "correct": "computer"
+  },
+  {
+    "input": "orf",
+    "correct": "of"
+  },
+  {
+    "input": "dox",
+    "correct": "do"
+  },
+  {
+    "input": "wll",
+    "correct": "all"
+  },
+  {
+    "input": "thta",
+    "correct": "that"
+  },
+  {
+    "input": "thaw",
+    "correct": "that"
+  },
+  {
+    "input": "ora",
+    "correct": "or"
+  },
+  {
+    "input": "nr",
+    "correct": "or"
+  },
+  {
+    "input": "o",
+    "correct": "or"
+  },
+  {
+    "input": "hto",
+    "correct": "to"
+  },
+  {
+    "input": "t",
+    "correct": "to"
+  },
+  {
+    "input": "tho",
+    "correct": "to"
+  },
+  {
+    "input": "hepr",
+    "correct": "her"
+  },
+  {
+    "input": "acdaemy",
+    "correct": "academy"
+  },
+  {
+    "input": "lcademy",
+    "correct": "academy"
+  },
+  {
+    "input": "inc",
+    "correct": "in"
+  },
+  {
+    "input": "aps",
+    "correct": "as"
+  },
+  {
+    "input": "af",
+    "correct": "as"
+  },
+  {
+    "input": "wóuld",
+    "correct": "would"
+  },
+  {
+    "input": "wuold",
+    "correct": "would"
+  },
+  {
+    "input": "ould",
+    "correct": "would"
+  },
+  {
+    "input": "ofe",
+    "correct": "of"
+  },
+  {
+    "input": "hat",
+    "correct": "that"
+  },
+  {
+    "input": "tht",
+    "correct": "that"
+  },
+  {
+    "input": "on",
+    "correct": "one"
+  },
+  {
+    "input": "óne",
+    "correct": "one"
+  },
+  {
+    "input": "esay",
+    "correct": "say"
+  },
+  {
+    "input": "sa",
+    "correct": "say"
+  },
+  {
+    "input": "ae",
+    "correct": "at"
+  },
+  {
+    "input": "oy",
+    "correct": "of"
+  },
+  {
+    "input": "résimé",
+    "correct": "résumé"
+  },
+  {
+    "input": "résum",
+    "correct": "résumé"
+  },
+  {
+    "input": "résume",
+    "correct": "résumé"
+  },
+  {
+    "input": "acrous",
+    "correct": "across"
+  },
+  {
+    "input": "keybaord",
+    "correct": "keyboard"
+  },
+  {
+    "input": "lit",
+    "correct": "it"
+  },
+  {
+    "input": "qt",
+    "correct": "it"
+  },
+  {
+    "input": "tehir",
+    "correct": "their"
+  },
+  {
+    "input": "thier",
+    "correct": "their"
+  },
+  {
+    "input": "áll",
+    "correct": "all"
+  },
+  {
+    "input": "lal",
+    "correct": "all"
+  },
+  {
+    "input": "ald",
+    "correct": "all"
+  },
+  {
+    "input": "nesume",
+    "correct": "resume"
+  },
+  {
+    "input": "performace",
+    "correct": "performance"
+  },
+  {
+    "input": "performnace",
+    "correct": "performance"
+  },
+  {
+    "input": "wouad",
+    "correct": "would"
+  },
+  {
+    "input": "woultd",
+    "correct": "would"
+  },
+  {
+    "input": "ocmputer",
+    "correct": "computer"
+  },
+  {
+    "input": "comuter",
+    "correct": "computer"
+  },
+  {
+    "input": "compyuter",
+    "correct": "computer"
+  },
+  {
+    "input": "accoss",
+    "correct": "access"
+  },
+  {
+    "input": "accese",
+    "correct": "access"
+  },
+  {
+    "input": "axccess",
+    "correct": "access"
+  },
+  {
+    "input": "thsi",
+    "correct": "this"
+  },
+  {
+    "input": "tihs",
+    "correct": "this"
+  },
+  {
+    "input": "osne",
+    "correct": "one"
+  },
+  {
+    "input": "noe",
+    "correct": "one"
+  },
+  {
+    "input": "tne",
+    "correct": "one"
+  },
+  {
+    "input": "bnt",
+    "correct": "but"
+  },
+  {
+    "input": "btt",
+    "correct": "but"
+  },
+  {
+    "input": "btu",
+    "correct": "but"
+  },
+  {
+    "input": "atcion",
+    "correct": "action"
+  },
+  {
+    "input": "actin",
+    "correct": "action"
+  },
+  {
+    "input": "th",
+    "correct": "the"
+  },
+  {
+    "input": "accesss",
+    "correct": "access"
+  },
+  {
+    "input": "acess",
+    "correct": "access"
+  },
+  {
+    "input": "tjey",
+    "correct": "they"
+  },
+  {
+    "input": "bpy",
+    "correct": "by"
+  },
+  {
+    "input": "y",
+    "correct": "my"
+  },
+  {
+    "input": "mn",
+    "correct": "my"
+  },
+  {
+    "input": "i",
+    "correct": "it"
+  },
+  {
+    "input": "ivt",
+    "correct": "it"
+  },
+  {
+    "input": "cross",
+    "correct": "across"
+  },
+  {
+    "input": "oen",
+    "correct": "one"
+  },
+  {
+    "input": "ione",
+    "correct": "one"
+  },
+  {
+    "input": "recevie",
+    "correct": "receive"
+  },
+  {
+    "input": "algl",
+    "correct": "all"
+  },
+  {
+    "input": "thht",
+    "correct": "that"
+  },
+  {
+    "input": "fo",
+    "correct": "for"
+  },
+  {
+    "input": "foi",
+    "correct": "for"
+  },
+  {
+    "input": "resmue",
+    "correct": "resume"
+  },
+  {
+    "input": "tg",
+    "correct": "to"
+  },
+  {
+    "input": "hn",
+    "correct": "an"
+  },
+  {
+    "input": "lan",
+    "correct": "an"
+  },
+  {
+    "input": "hav",
+    "correct": "have"
+  },
+  {
+    "input": "hyve",
+    "correct": "have"
+  },
+  {
+    "input": "he",
+    "correct": "she"
+  },
+  {
+    "input": "hse",
+    "correct": "she"
+  },
+  {
+    "input": "shb",
+    "correct": "she"
+  },
+  {
+    "input": "wth",
+    "correct": "with"
+  },
+  {
+    "input": "eb",
+    "correct": "be"
+  },
+  {
+    "input": "iwll",
+    "correct": "will"
+  },
+  {
+    "input": "fill",
+    "correct": "will"
+  },
+  {
+    "input": "notx",
+    "correct": "not"
+  },
+  {
+    "input": "nto",
+    "correct": "not"
+  },
+  {
+    "input": "fro",
+    "correct": "for"
+  },
+  {
+    "input": "ffr",
+    "correct": "for"
+  },
+  {
+    "input": "fór",
+    "correct": "for"
+  },
+  {
+    "input": "nov",
+    "correct": "not"
+  },
+  {
+    "input": "tot",
+    "correct": "not"
+  },
+  {
+    "input": "phis",
+    "correct": "this"
+  },
+  {
+    "input": "htis",
+    "correct": "this"
+  },
+  {
+    "input": "thes",
+    "correct": "this"
+  },
+  {
+    "input": "sya",
+    "correct": "say"
+  },
+  {
+    "input": "eheir",
+    "correct": "their"
+  },
+  {
+    "input": "thpir",
+    "correct": "their"
+  },
+  {
+    "input": "heir",
+    "correct": "their"
+  },
+  {
+    "input": "keyboardz",
+    "correct": "keyboard"
+  },
+  {
+    "input": "frm",
+    "correct": "from"
+  },
+  {
+    "input": "frmo",
+    "correct": "from"
+  },
+  {
+    "input": "he",
+    "correct": "her"
+  },
+  {
+    "input": "hr",
+    "correct": "her"
+  },
+  {
+    "input": "hze",
+    "correct": "he"
+  },
+  {
+    "input": "án",
+    "correct": "an"
+  },
+  {
+    "input": "beq",
+    "correct": "be"
+  },
+  {
+    "input": "lou",
+    "correct": "you"
+  },
+  {
+    "input": "thieir",
+    "correct": "their"
+  },
+  {
+    "input": "arcess",
+    "correct": "access"
+  },
+  {
+    "input": "hdve",
+    "correct": "have"
+  },
+  {
+    "input": "adn",
+    "correct": "and"
+  },
+  {
+    "input": "any",
+    "correct": "and"
+  },
+  {
+    "input": "cmputer",
+    "correct": "computer"
+  },
+  {
+    "input": "cozputer",
+    "correct": "computer"
+  },
+  {
+    "input": "ve",
+    "correct": "we"
+  },
+  {
+    "input": "e",
+    "correct": "we"
+  },
+  {
+    "input": "compter",
+    "correct": "computer"
+  },
+  {
+    "input": "oo",
+    "correct": "to"
+  },
+  {
+    "input": "tom",
+    "correct": "to"
+  },
+  {
+    "input": "tere",
+    "correct": "there"
+  },
+  {
+    "input": "comupter",
+    "correct": "computer"
+  },
+  {
+    "input": "copmputer",
+    "correct": "computer"
+  },
+  {
+    "input": "bvt",
+    "correct": "but"
+  },
+  {
+    "input": "eh",
+    "correct": "he"
+  },
+  {
+    "input": "ye",
+    "correct": "he"
+  },
+  {
+    "input": "fy",
+    "correct": "by"
+  },
+  {
+    "input": "dby",
+    "correct": "by"
+  },
+  {
+    "input": "uby",
+    "correct": "by"
+  },
+  {
+    "input": "cation",
+    "correct": "action"
+  },
+  {
+    "input": "actixn",
+    "correct": "action"
+  },
+  {
+    "input": "gaction",
+    "correct": "action"
+  },
+  {
+    "input": "hll",
+    "correct": "all"
+  },
+  {
+    "input": "omputer",
+    "correct": "computer"
+  },
+  {
+    "input": "acrjss",
+    "correct": "across"
+  },
+  {
+    "input": "oj",
+    "correct": "of"
+  },
+  {
+    "input": "herr",
+    "correct": "her"
+  },
+  {
+    "input": "ehr",
+    "correct": "her"
+  },
+  {
+    "input": "bhy",
+    "correct": "by"
+  },
+  {
+    "input": "bu",
+    "correct": "by"
+  },
+  {
+    "input": "acioss",
+    "correct": "across"
+  },
+  {
+    "input": "acrsos",
+    "correct": "across"
+  },
+  {
+    "input": "tge",
+    "correct": "the"
+  },
+  {
+    "input": "thir",
+    "correct": "their"
+  },
+  {
+    "input": "hteir",
+    "correct": "their"
+  },
+  {
+    "input": "ti",
+    "correct": "it"
+  },
+  {
+    "input": "ibt",
+    "correct": "it"
+  },
+  {
+    "input": "r",
+    "correct": "or"
+  },
+  {
+    "input": "macademy",
+    "correct": "academy"
+  },
+  {
+    "input": "academk",
+    "correct": "academy"
+  },
+  {
+    "input": "he",
+    "correct": "the"
+  },
+  {
+    "input": "compueter",
+    "correct": "computer"
+  },
+  {
+    "input": "cmoputer",
+    "correct": "computer"
+  },
+  {
+    "input": "owuld",
+    "correct": "would"
+  },
+  {
+    "input": "wbuld",
+    "correct": "would"
+  },
+  {
+    "input": "mn",
+    "correct": "an"
+  },
+  {
+    "input": "oc",
+    "correct": "on"
+  },
+  {
+    "input": "om",
+    "correct": "on"
+  },
+  {
+    "input": "hte",
+    "correct": "the"
+  },
+  {
+    "input": "qhe",
+    "correct": "the"
+  },
+  {
+    "input": "e",
+    "correct": "be"
+  },
+  {
+    "input": "mne",
+    "correct": "one"
+  },
+  {
+    "input": "arcoss",
+    "correct": "across"
+  },
+  {
+    "input": "thís",
+    "correct": "this"
+  },
+  {
+    "input": "wsay",
+    "correct": "say"
+  },
+  {
+    "input": "sh",
+    "correct": "she"
+  },
+  {
+    "input": "eith",
+    "correct": "with"
+  },
+  {
+    "input": "receiev",
+    "correct": "receive"
+  },
+  {
+    "input": "recieve",
+    "correct": "receive"
+  },
+  {
+    "input": "h",
+    "correct": "he"
+  },
+  {
+    "input": "computedr",
+    "correct": "computer"
+  },
+  {
+    "input": "tqeir",
+    "correct": "their"
+  },
+  {
+    "input": "acrxss",
+    "correct": "across"
+  },
+  {
+    "input": "ácross",
+    "correct": "across"
+  },
+  {
+    "input": "wlil",
+    "correct": "will"
+  },
+  {
+    "input": "witz",
+    "correct": "with"
+  },
+  {
+    "input": "sa",
+    "correct": "as"
+  },
+  {
+    "input": "wer",
+    "correct": "we"
+  },
+  {
+    "input": "wé",
+    "correct": "we"
+  },
+  {
+    "input": "hwe",
+    "correct": "we"
+  },
+  {
+    "input": "keeboard",
+    "correct": "keyboard"
+  },
+  {
+    "input": "pn",
+    "correct": "an"
+  },
+  {
+    "input": "aill",
+    "correct": "will"
+  },
+  {
+    "input": "hel",
+    "correct": "he"
+  },
+  {
+    "input": "dc",
+    "correct": "do"
+  },
+  {
+    "input": "acadlmy",
+    "correct": "academy"
+  },
+  {
+    "input": "apademy",
+    "correct": "academy"
+  },
+  {
+    "input": "acadeey",
+    "correct": "academy"
+  },
+  {
+    "input": "woulld",
+    "correct": "would"
+  },
+  {
+    "input": "nol",
+    "correct": "not"
+  },
+  {
+    "input": "aiademy",
+    "correct": "academy"
+  },
+  {
+    "input": "or",
+    "correct": "of"
+  },
+  {
+    "input": "bof",
+    "correct": "of"
+  },
+  {
+    "input": "mjy",
+    "correct": "my"
+  },
+  {
+    "input": "m",
+    "correct": "my"
+  },
+  {
+    "input": "bgt",
+    "correct": "but"
+  },
+  {
+    "input": "lbut",
+    "correct": "but"
+  },
+  {
+    "input": "ubt",
+    "correct": "but"
+  },
+  {
+    "input": "hedr",
+    "correct": "her"
+  },
+  {
+    "input": "recetve",
+    "correct": "receive"
+  },
+  {
+    "input": "recueive",
+    "correct": "receive"
+  },
+  {
+    "input": "a",
+    "correct": "at"
+  },
+  {
+    "input": "lat",
+    "correct": "at"
+  },
+  {
+    "input": "rfom",
+    "correct": "from"
+  },
+  {
+    "input": "rom",
+    "correct": "from"
+  },
+  {
+    "input": "ffom",
+    "correct": "from"
+  },
+  {
+    "input": "myé",
+    "correct": "my"
+  },
+  {
+    "input": "mo",
+    "correct": "my"
+  },
+  {
+    "input": "ih",
+    "correct": "it"
+  },
+  {
+    "input": "oe",
+    "correct": "of"
+  },
+  {
+    "input": "ozf",
+    "correct": "of"
+  },
+  {
+    "input": "if",
+    "correct": "of"
+  },
+  {
+    "input": "dacross",
+    "correct": "across"
+  },
+  {
+    "input": "o",
+    "correct": "of"
+  },
+  {
+    "input": "thls",
+    "correct": "this"
+  },
+  {
+    "input": "thii",
+    "correct": "this"
+  },
+  {
+    "input": "ths",
+    "correct": "this"
+  },
+  {
+    "input": "kan",
+    "correct": "an"
+  },
+  {
+    "input": "resue",
+    "correct": "resume"
+  },
+  {
+    "input": "resme",
+    "correct": "resume"
+  },
+  {
+    "input": "pefrormance",
+    "correct": "performance"
+  },
+  {
+    "input": "preformance",
+    "correct": "performance"
+  },
+  {
+    "input": "vhey",
+    "correct": "they"
+  },
+  {
+    "input": "theyb",
+    "correct": "they"
+  },
+  {
+    "input": "yu",
+    "correct": "you"
+  },
+  {
+    "input": "youe",
+    "correct": "you"
+  },
+  {
+    "input": "tyhis",
+    "correct": "this"
+  },
+  {
+    "input": "tyis",
+    "correct": "this"
+  },
+  {
+    "input": "zhis",
+    "correct": "this"
+  },
+  {
+    "input": "shes",
+    "correct": "she"
+  },
+  {
+    "input": "shz",
+    "correct": "she"
+  },
+  {
+    "input": "rceeive",
+    "correct": "receive"
+  },
+  {
+    "input": "erceive",
+    "correct": "receive"
+  },
+  {
+    "input": "fpor",
+    "correct": "for"
+  },
+  {
+    "input": "hids",
+    "correct": "his"
+  },
+  {
+    "input": "ihs",
+    "correct": "his"
+  },
+  {
+    "input": "thye",
+    "correct": "they"
+  },
+  {
+    "input": "théy",
+    "correct": "they"
+  },
+  {
+    "input": "tdey",
+    "correct": "they"
+  },
+  {
+    "input": "thé",
+    "correct": "the"
+  },
+  {
+    "input": "teh",
+    "correct": "the"
+  },
+  {
+    "input": "ta",
+    "correct": "at"
+  },
+  {
+    "input": "aj",
+    "correct": "at"
+  },
+  {
+    "input": "hre",
+    "correct": "he"
+  },
+  {
+    "input": "ao",
+    "correct": "an"
+  },
+  {
+    "input": "b",
+    "correct": "be"
+  },
+  {
+    "input": "ther",
+    "correct": "their"
+  },
+  {
+    "input": "tbe",
+    "correct": "the"
+  },
+  {
+    "input": "theyi",
+    "correct": "they"
+  },
+  {
+    "input": "tnhey",
+    "correct": "they"
+  },
+  {
+    "input": "performacne",
+    "correct": "performance"
+  },
+  {
+    "input": "acaedmy",
+    "correct": "academy"
+  },
+  {
+    "input": "acadegy",
+    "correct": "academy"
+  },
+  {
+    "input": "the",
+    "correct": "they"
+  },
+  {
+    "input": "ho",
+    "correct": "to"
+  },
+  {
+    "input": "ot",
+    "correct": "to"
+  },
+  {
+    "input": "thehr",
+    "correct": "their"
+  },
+  {
+    "input": "áction",
+    "correct": "action"
+  },
+  {
+    "input": "owr",
+    "correct": "or"
+  },
+  {
+    "input": "ór",
+    "correct": "or"
+  },
+  {
+    "input": "yoo",
+    "correct": "you"
+  },
+  {
+    "input": "receve",
+    "correct": "receive"
+  },
+  {
+    "input": "fróm",
+    "correct": "from"
+  },
+  {
+    "input": "ekyboard",
+    "correct": "keyboard"
+  },
+  {
+    "input": "keyborad",
+    "correct": "keyboard"
+  },
+  {
+    "input": "ghey",
+    "correct": "they"
+  },
+  {
+    "input": "thegy",
+    "correct": "they"
+  },
+  {
+    "input": "tthis",
+    "correct": "this"
+  },
+  {
+    "input": "we",
+    "correct": "be"
+  },
+  {
+    "input": "woud",
+    "correct": "would"
+  },
+  {
+    "input": "mould",
+    "correct": "would"
+  },
+  {
+    "input": "woudl",
+    "correct": "would"
+  },
+  {
+    "input": "wll",
+    "correct": "will"
+  },
+  {
+    "input": "yo",
+    "correct": "you"
+  },
+  {
+    "input": "yuo",
+    "correct": "you"
+  },
+  {
+    "input": "oyu",
+    "correct": "you"
+  },
+  {
+    "input": "jn",
+    "correct": "in"
+  },
+  {
+    "input": "hyou",
+    "correct": "you"
+  },
+  {
+    "input": "wec",
+    "correct": "we"
+  },
+  {
+    "input": "theer",
+    "correct": "there"
+  },
+  {
+    "input": "alv",
+    "correct": "all"
+  },
+  {
+    "input": "ayl",
+    "correct": "all"
+  },
+  {
+    "input": "resumé",
+    "correct": "résumé"
+  },
+  {
+    "input": "réyumé",
+    "correct": "résumé"
+  },
+  {
+    "input": "réusmé",
+    "correct": "résumé"
+  },
+  {
+    "input": "résmué",
+    "correct": "résumé"
+  },
+  {
+    "input": "ésumé",
+    "correct": "résumé"
+  },
+  {
+    "input": "aud",
+    "correct": "and"
+  },
+  {
+    "input": "ad",
+    "correct": "and"
+  },
+  {
+    "input": "wih",
+    "correct": "with"
+  },
+  {
+    "input": "ith",
+    "correct": "with"
+  },
+  {
+    "input": "wwill",
+    "correct": "will"
+  },
+  {
+    "input": "hlis",
+    "correct": "his"
+  },
+  {
+    "input": "hgs",
+    "correct": "his"
+  },
+  {
+    "input": "hie",
+    "correct": "his"
+  },
+  {
+    "input": "azcess",
+    "correct": "access"
+  },
+  {
+    "input": "cacess",
+    "correct": "access"
+  },
+  {
+    "input": "rhe",
+    "correct": "she"
+  },
+  {
+    "input": "haveu",
+    "correct": "have"
+  },
+  {
+    "input": "hve",
+    "correct": "have"
+  },
+  {
+    "input": "az",
+    "correct": "an"
+  },
+  {
+    "input": "acazdemy",
+    "correct": "academy"
+  },
+  {
+    "input": "cademy",
+    "correct": "academy"
+  },
+  {
+    "input": "ii",
+    "correct": "in"
+  },
+  {
+    "input": "nokt",
+    "correct": "not"
+  },
+  {
+    "input": "inf",
+    "correct": "in"
+  },
+  {
+    "input": "jin",
+    "correct": "in"
+  },
+  {
+    "input": "perfordance",
+    "correct": "performance"
+  },
+  {
+    "input": "perforamnce",
+    "correct": "performance"
+  },
+  {
+    "input": "ofb",
+    "correct": "of"
+  },
+  {
+    "input": "obf",
+    "correct": "of"
+  },
+  {
+    "input": "óf",
+    "correct": "of"
+  },
+  {
+    "input": "o",
+    "correct": "to"
+  },
+  {
+    "input": "ny",
+    "correct": "by"
+  },
+  {
+    "input": "hit",
+    "correct": "his"
+  },
+  {
+    "input": "uand",
+    "correct": "and"
+  },
+  {
+    "input": "nd",
+    "correct": "and"
+  },
+  {
+    "input": "nad",
+    "correct": "and"
+  },
+  {
+    "input": "theo",
+    "correct": "they"
+  },
+  {
+    "input": "htey",
+    "correct": "they"
+  },
+  {
+    "input": "aacdemy",
+    "correct": "academy"
+  },
+  {
+    "input": "keyboahd",
+    "correct": "keyboard"
+  },
+  {
+    "input": "keyboar",
+    "correct": "keyboard"
+  },
+  {
+    "input": "receie",
+    "correct": "receive"
+  },
+  {
+    "input": "ff",
+    "correct": "of"
+  },
+  {
+    "input": "ofa",
+    "correct": "of"
+  },
+  {
+    "input": "actioy",
+    "correct": "action"
+  },
+  {
+    "input": "rction",
+    "correct": "action"
+  },
+  {
+    "input": "wilbl",
+    "correct": "will"
+  },
+  {
+    "input": "whll",
+    "correct": "will"
+  },
+  {
+    "input": "wduld",
+    "correct": "would"
+  },
+  {
+    "input": "woulbd",
+    "correct": "would"
+  },
+  {
+    "input": "ce",
+    "correct": "we"
+  },
+  {
+    "input": "tor",
+    "correct": "for"
+  },
+  {
+    "input": "acriss",
+    "correct": "across"
+  },
+  {
+    "input": "awross",
+    "correct": "across"
+  },
+  {
+    "input": "tx",
+    "correct": "to"
+  },
+  {
+    "input": "alxl",
+    "correct": "all"
+  },
+  {
+    "input": "lall",
+    "correct": "all"
+  },
+  {
+    "input": "en",
+    "correct": "in"
+  },
+  {
+    "input": "ie",
+    "correct": "in"
+  },
+  {
+    "input": "thew",
+    "correct": "the"
+  },
+  {
+    "input": "ste",
+    "correct": "she"
+  },
+  {
+    "input": "át",
+    "correct": "at"
+  },
+  {
+    "input": "ia",
+    "correct": "in"
+  },
+  {
+    "input": "pmy",
+    "correct": "my"
+  },
+  {
+    "input": "ywe",
+    "correct": "we"
+  },
+  {
+    "input": "accuess",
+    "correct": "access"
+  },
+  {
+    "input": "acecss",
+    "correct": "access"
+  },
+  {
+    "input": "keybdoard",
+    "correct": "keyboard"
+  },
+  {
+    "input": "keybqoard",
+    "correct": "keyboard"
+  },
+  {
+    "input": "keyboapd",
+    "correct": "keyboard"
+  },
+  {
+    "input": "sáy",
+    "correct": "say"
+  },
+  {
+    "input": "asy",
+    "correct": "say"
+  },
+  {
+    "input": "zis",
+    "correct": "his"
+  },
+  {
+    "input": "witq",
+    "correct": "with"
+  },
+  {
+    "input": "oe",
+    "correct": "one"
+  },
+  {
+    "input": "receivw",
+    "correct": "receive"
+  },
+  {
+    "input": "attion",
+    "correct": "action"
+  },
+  {
+    "input": "qesume",
+    "correct": "resume"
+  },
+  {
+    "input": "mresume",
+    "correct": "resume"
+  },
+  {
+    "input": "rekume",
+    "correct": "resume"
+  },
+  {
+    "input": "tgey",
+    "correct": "they"
+  },
+  {
+    "input": "theyf",
+    "correct": "they"
+  },
+  {
+    "input": "résuém",
+    "correct": "résumé"
+  },
+  {
+    "input": "réysumé",
+    "correct": "résumé"
+  },
+  {
+    "input": "réumé",
+    "correct": "résumé"
+  },
+  {
+    "input": "ut",
+    "correct": "it"
+  },
+  {
+    "input": "cit",
+    "correct": "it"
+  },
+  {
+    "input": "ít",
+    "correct": "it"
+  },
+  {
+    "input": "jt",
+    "correct": "it"
+  },
+  {
+    "input": "s",
+    "correct": "as"
+  },
+  {
+    "input": "ás",
+    "correct": "as"
+  },
+  {
+    "input": "js",
+    "correct": "as"
+  },
+  {
+    "input": "yt",
+    "correct": "it"
+  },
+  {
+    "input": "tq",
+    "correct": "to"
+  },
+  {
+    "input": "brésumé",
+    "correct": "résumé"
+  },
+  {
+    "input": "résumb",
+    "correct": "résumé"
+  },
+  {
+    "input": "ne",
+    "correct": "one"
+  },
+  {
+    "input": "qne",
+    "correct": "one"
+  },
+  {
+    "input": "lt",
+    "correct": "it"
+  }
+]
