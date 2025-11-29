@@ -67,7 +67,14 @@ export function suggestWithOptionalRerank(
   }
 
   // 3) Trim to a reasonable pre-rerank window (to limit cost)
-  const preRerank = candidates.slice(0, Math.max(numSuggestions, opts.rerankTopK ?? numSuggestions * 2));
+  // const preRerank = candidates.slice(0, Math.max(numSuggestions, opts.rerankTopK ?? numSuggestions * 2));
+  // limit how many candidates we feed into the expensive rerank.
+  // default to 100 to keep latency low; allow opts.rerankTopK to override up to a reasonable cap.
+  const DEFAULT_RERANK_TOPK = 100;
+  const RERANK_TOPK_CAP = 500;
+  const requestedTopK = opts.rerankTopK ?? DEFAULT_RERANK_TOPK;
+  const preRerankTopK = Math.min(Math.max(numSuggestions, requestedTopK), RERANK_TOPK_CAP);
+  const preRerank = candidates.slice(0, preRerankTopK);
 
   // 4) Optionally rerank using Damerau
   if (opts.rerank === 'damerau') {
@@ -78,3 +85,4 @@ export function suggestWithOptionalRerank(
   // 5) Default: return top-N as-is (trim to requested size)
   return preRerank.slice(0, numSuggestions);
 }
+
