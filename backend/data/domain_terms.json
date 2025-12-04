@@ -1,0 +1,5 @@
+{
+  "frontend": ["button", "input", "react", "angular", "vue", "component", "css", "html", "typescript"],
+  "backend": ["server", "database", "api", "python", "java", "node", "docker", "kubernetes", "microservice"],
+  "ai": ["model", "dataset", "neural", "tensor", "training", "inference", "transformer", "embedding", "prompt"]
+}

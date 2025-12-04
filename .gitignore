@@ -1,0 +1,7 @@
+out/
+node_modules/
+.vscode-test/
+*.log
+*.pyc
+__pycache__/
+backend/.venv/

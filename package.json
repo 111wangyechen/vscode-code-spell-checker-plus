@@ -1,0 +1,74 @@
+{
+  "name": "vscode-spell-multilang",
+  "displayName": "Multi-language Spell Checker",
+  "publisher": "your-publisher",
+  "version": "0.0.1",
+  "description": "Spell checking and suggestions using a Python backend with multi-language support",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Linters",
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onLanguage:plaintext"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "spellChecker.scan",
+        "title": "Spell Checker Scan"
+      }
+    ],
+    "configuration": {
+      "title": "Multi-language Spell Checker",
+      "properties": {
+        "spellChecker.pythonPath": {
+          "type": "string",
+          "default": "python",
+          "description": "Python executable path"
+        },
+        "spellChecker.enabledLanguages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "en",
+            "zh",
+            "ja"
+          ],
+          "description": "Enabled languages"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "typecheck": "tsc -p . --noEmit",
+    "test": "mocha -r ts-node/register test/suite/**/*.test.ts",
+    "build": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^22.19.1",
+    "@types/vscode": "^1.80.0",
+    "chai": "^4.4.1",
+    "mocha": "^10.7.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

@@ -1,0 +1,12 @@
+import json
+from backend.dictionary import Dictionary
+from backend.algorithm.suggestion import suggest_for
+
+def test_dictionary_loads():
+    d = Dictionary()
+    assert len(d.all_terms()) > 0
+
+def test_suggest_for_word():
+    d = Dictionary()
+    res = suggest_for("modle", d)
+    assert isinstance(res, list)
