@@ -146,6 +146,7 @@ type _VSConfigLanguageAndDictionaries = Pick<
     | 'languageSettings'
     | 'noSuggestDictionaries'
     | 'suggestWords'
+    | 'technicalTermsDomains'
     | 'useLocallyInstalledCSpellDictionaries'
     | 'userWords'
     | 'words'

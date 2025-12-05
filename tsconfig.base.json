@@ -18,6 +18,7 @@
         "sourceMap": true,
         "strictNullChecks": true,
         "types": ["node"],
-        "outDir": "${configDir}/dist"
+        "outDir": "${configDir}/dist",
+        "allowImportingTsExtensions": true
     }
 }

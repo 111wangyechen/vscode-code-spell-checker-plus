@@ -65,3 +65,9 @@ website/build
 # Do not add accidental yarn.lock or pnpm-lock.yaml
 yarn.lock
 pnpm-lock.yaml
+
+# Generated documentation files (auto-generated, do not commit)
+PROJECT_IMPLEMENTATION_REPORT.md
+TODO_GUIDE.md
+QUICK_REFERENCE.md
+TASK_COMPLETION_REPORT.md

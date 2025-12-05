@@ -10,6 +10,8 @@ import type { CSpellUserAndExtensionSettings } from './config/cspellConfig/index
 import type { UnknownWordsReportingLevel } from './config/cspellConfig/SpellCheckerSettings.mjs';
 import { diagnosticSource } from './constants.mjs';
 import { createDocumentValidator } from './DocumentValidationController.mjs';
+import { JapaneseChecker } from './japaneseChecker.mts';
+import { PinyinChecker } from './pinyinChecker.mts';
 
 export { createTextDocument, validateText } from 'cspell-lib';
 
@@ -26,10 +28,22 @@ const diagSeverityMap = new Map<string, DiagnosticSeverity | undefined>([
 
 export async function validateTextDocument(textDocument: TextDocument, options: CSpellUserAndExtensionSettings): Promise<Diagnostic[]> {
     const { severity, severityFlaggedWords } = calcSeverity(textDocument.uri, options);
-    const docVal = await createDocumentValidator(textDocument, options);
-    const r = await docVal.checkDocumentAsync(true);
+    const checker = await createDocumentValidator(textDocument, options);
+    
+    // 执行cspell拼写检查
+    const cspellIssues = await checker.checkDocumentAsync(true);
+    
+    // 执行拼音检查
+    const pinyinIssues = PinyinChecker.checkPinyinVariables(textDocument);
+    
+    // 执行日文检查
+    const japaneseIssues = await JapaneseChecker.checkJapaneseVariables(textDocument);
+    
+    // 合并检查结果，并为自定义检查结果标记特殊信息
+    const allIssues = [...cspellIssues, ...pinyinIssues.map((issue: any) => ({ ...issue, isCustomCheck: true })), ...japaneseIssues.map((issue: any) => ({ ...issue, isCustomCheck: true }))];
+    
     const reportUnknownWords = calcReportingLevel(options.reportUnknownWords, options);
-    const diags = r
+    const diags = allIssues
         // Convert the offset into a position
         .map((issue) => ({ ...issue, position: textDocument.positionAt(issue.offset) }))
         // Calculate the range
@@ -39,14 +53,15 @@ export async function validateTextDocument(textDocument: TextDocument, options: 
                 start: issue.position,
                 end: { ...issue.position, character: issue.position.character + (issue.length ?? issue.text.length) },
             },
-            severity: issue.isFlagged ? severityFlaggedWords : severity,
+            severity: issue.isFlagged ? severityFlaggedWords : 
+                     (issue as any).isCustomCheck ? DiagnosticSeverity.Warning : severity,
         }))
         // Convert it to a Diagnostic
         .map((issue) => {
             const { text, range, isFlagged, message, issueType, suggestions, suggestionsEx, severity } = issue;
-            const isKnown = suggestionsEx?.some((sug) => sug.isPreferred) || false;
+            const isKnown = suggestionsEx?.some((sug: any) => sug.isPreferred) || false;
             const diagMessage = `"${text}": ${message ?? `${isFlagged ? 'Forbidden' : isKnown ? 'Misspelled' : 'Unknown'} word`}.`;
-            const sugs = suggestionsEx || suggestions?.map((word) => ({ word }));
+            const sugs = suggestionsEx || suggestions?.map((word: string) => ({ word }));
 
             const data: SpellCheckerDiagnosticData = {
                 text,

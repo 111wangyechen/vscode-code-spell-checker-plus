@@ -12,6 +12,7 @@ import type { TextEdit as LsTextEdit } from './vscode-languageclient/node.cjs';
 import type { Converter } from './vscode-languageclient/types.js';
 
 const propertyFixSpellingWithRenameProvider = Settings.ConfigFields.fixSpellingWithRenameProvider;
+const propertyFixSpellingWithReferenceProvider = Settings.ConfigFields.fixSpellingWithReferenceProvider;
 const propertyUseReferenceProviderWithRename = Settings.ConfigFields['advanced.feature.useReferenceProviderWithRename'];
 const propertyUseReferenceProviderRemove = Settings.ConfigFields['advanced.feature.useReferenceProviderRemove'];
 
@@ -125,7 +126,7 @@ export async function handleApplyLsTextEdits(uri: string, documentVersion: numbe
 function calcUseRefInfo(doc: TextDocument) {
     const cfg = workspace.getConfiguration(Settings.sectionCSpell, doc);
     const useRename = !!cfg.get(propertyFixSpellingWithRenameProvider);
-    const useReference = !!cfg.get(propertyUseReferenceProviderWithRename);
+    const useReference = !!cfg.get(propertyFixSpellingWithReferenceProvider) || !!cfg.get(propertyUseReferenceProviderWithRename);
     const removeRegExp = stringToRegExp(cfg.get(propertyUseReferenceProviderRemove) as string | undefined);
     return { useRename, useReference, removeRegExp };
 }

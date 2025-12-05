@@ -43,9 +43,25 @@ dictionaryDefinitions:
     scope:
       - workspace
     path: ./cspell-words.txt
+  - name: tech-terms-frontend
+    path: ./sampleDictionaries/tech-terms/frontend-terms.txt
+    addWords: false
+  - name: tech-terms-backend
+    path: ./sampleDictionaries/tech-terms/backend-terms.txt
+    addWords: false
+  - name: tech-terms-ai
+    path: ./sampleDictionaries/tech-terms/ai-terms.txt
+    addWords: false
+  - name: tech-terms-all
+    path: ./sampleDictionaries/tech-terms/all-terms.txt
+    addWords: false
 dictionaries:
   - cities
   - cspell-words
+  - tech-terms-frontend
+  - tech-terms-backend
+  - tech-terms-ai
+  - tech-terms-all
 languageSettings:
   - languageId: '*'
     allowCompoundWords: false

@@ -811,6 +811,12 @@
         "markdownDescription": "Settings related to CSpell Command Line Tool.",
         "order": 5,
         "properties": {
+          "cSpell.fixSpellingWithReferenceProvider": {
+            "default": true,
+            "markdownDescription": "Use Reference Provider when fixing spelling issues. This will find all references to the word and fix them.",
+            "scope": "language-overridable",
+            "type": "boolean"
+          },
           "cSpell.ignoreRandomStrings": {
             "default": true,
             "markdownDescription": "Ignore sequences of characters that look like random strings.",
@@ -3174,6 +3180,41 @@
             },
             "markdownDescription": "A list of suggested replacements for words.\nSuggested words provide a way to make preferred suggestions on word replacements.\nTo hint at a preferred change, but not to require it.\n\nFormat of `suggestWords`\n- Single suggestion (possible auto fix)\n    - `word: suggestion`\n    - `word->suggestion`\n- Multiple suggestions (not auto fixable)\n   - `word: first, second, third`\n   - `word->first, second, third`",
             "type": "array"
+          },
+          "cSpell.technicalTermsDomains": {
+            "additionalProperties": false,
+            "default": {
+              "ai": true,
+              "all": true,
+              "backend": true,
+              "frontend": true
+            },
+            "markdownDescription": "Control which technical terms domains are enabled.",
+            "properties": {
+              "ai": {
+                "default": true,
+                "markdownDescription": "Enable AI-related technical terms.",
+                "type": "boolean"
+              },
+              "all": {
+                "default": true,
+                "markdownDescription": "Enable all technical terms.",
+                "type": "boolean"
+              },
+              "backend": {
+                "default": true,
+                "markdownDescription": "Enable backend-related technical terms.",
+                "type": "boolean"
+              },
+              "frontend": {
+                "default": true,
+                "markdownDescription": "Enable frontend-related technical terms.",
+                "type": "boolean"
+              }
+            },
+            "scope": "resource",
+            "title": "Technical Terms Domains",
+            "type": "object"
           },
           "cSpell.useLocallyInstalledCSpellDictionaries": {
             "default": true,

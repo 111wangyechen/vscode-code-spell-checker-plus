@@ -169,6 +169,22 @@ describe('Validator', () => {
         },
         timeout,
     );
+
+    test(
+        '技术术语拼写不全修复测试 - tensorflow',
+        async () => {
+            const code = 'const tensrflow = "machine learning library";';
+            const settings = getSettings(code, 'javascript');
+            const dictionary = await cspell.getDictionary(settings);
+            const options = { numSuggestions: 3, numChanges: 3 };
+            const suggestions = await dictionary.suggest('tensrflow', options);
+            const suggestionWords = suggestions.map(s => s.word);
+            expect(suggestionWords).toContain('tensorflow');
+        },
+        timeout,
+    );
+
+
 });
 
 const sampleCode = `

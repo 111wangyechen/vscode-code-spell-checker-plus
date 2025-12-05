@@ -36,6 +36,13 @@ export interface SpellCheckerSettings
         ExperimentalSettings,
         AdvancedSettings {
     /**
+     * Control which technical terms domains are enabled.
+     * @title Technical Terms Domains
+     * @scope resource
+     * @default { "ai": true, "frontend": true, "backend": true, "all": true }
+     */
+    technicalTermsDomains?: TechnicalTermsDomains;
+    /**
      * Enable / Disable autocorrect while typing.
      * @title Autocorrect
      * @scope resource
@@ -158,6 +165,13 @@ export interface SpellCheckerSettings
      * @default true
      */
     fixSpellingWithRenameProvider?: boolean;
+
+    /**
+     * Use Reference Provider when fixing spelling issues. This will find all references to the word and fix them.
+     * @scope language-overridable
+     * @default true
+     */
+    fixSpellingWithReferenceProvider?: boolean;
 
     /**
      * Show Spell Checker actions in Editor Context Menu
@@ -519,6 +533,38 @@ export interface AddToTargets extends AddToDictionaryTarget {
 }
 
 export type UnknownWordsReportingLevel = 'all' | 'simple' | 'typos' | 'flagged';
+
+/**
+ * Technical terms domains that can be enabled or disabled.
+ * @title Technical Terms Domains
+ * @scope resource
+ * @since 4.0.0
+ */
+export interface TechnicalTermsDomains {
+    /**
+     * Enable AI-related technical terms.
+     * @default true
+     */
+    ai?: boolean;
+    
+    /**
+     * Enable frontend-related technical terms.
+     * @default true
+     */
+    frontend?: boolean;
+    
+    /**
+     * Enable backend-related technical terms.
+     * @default true
+     */
+    backend?: boolean;
+    
+    /**
+     * Enable all technical terms.
+     * @default true
+     */
+    all?: boolean;
+}
 
 /**
  * Control which notifications are displayed.

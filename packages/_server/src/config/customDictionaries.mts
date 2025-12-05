@@ -68,7 +68,28 @@ export function extractDictionaryDefinitions(settings: CSpellUserAndExtensionSet
 
 export function extractDictionaryList(settings: CSpellUserAndExtensionSettings): string[] {
     const customDicts = extractCustomDictionaries(settings);
-    const dicts = (settings.dictionaries || []).concat(extractNamesFromCustomDictionaries(customDicts));
+    let dicts = (settings.dictionaries || []).concat(extractNamesFromCustomDictionaries(customDicts));
+    
+    // 根据用户配置过滤技术术语词典
+    const techTermsDomains = settings.technicalTermsDomains || { ai: true, frontend: true, backend: true, all: true };
+    
+    // 如果 all 为 false，则排除所有技术术语词典
+    if (!techTermsDomains.all) {
+        dicts = dicts.filter(dict => !dict.startsWith('tech-terms-'));
+    } else {
+        // 否则根据各个领域的配置排除对应的词典
+        if (!techTermsDomains.ai) {
+            dicts.push('!tech-terms-ai');
+        }
+        if (!techTermsDomains.frontend) {
+            dicts.push('!tech-terms-frontend');
+        }
+        if (!techTermsDomains.backend) {
+            dicts.push('!tech-terms-backend');
+        }
+        // tech-terms-all 始终包含，除非 all 为 false
+    }
+    
     return dicts;
 }
 

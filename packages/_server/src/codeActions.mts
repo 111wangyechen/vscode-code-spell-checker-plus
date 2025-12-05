@@ -134,8 +134,8 @@ class CodeActionHandler {
         const uri = textDocument.uri;
         if (!spellCheckerDiags.length) return [];
 
-        // We do not want to clutter the actions when someone is trying to refactor code
-        if (spellCheckerDiags.length > 1) return [];
+        // 我们不再限制只能有一个拼写错误时才显示建议
+        // if (spellCheckerDiags.length > 1) return [];
 
         const { settings: docSetting, dictionary } = await this.getSettings(textDocument);
         if (!isUriAllowedBySettings(uri, docSetting)) {

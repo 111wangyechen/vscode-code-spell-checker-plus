@@ -3,7 +3,7 @@ import { CompoundWordsMethod, type SpellingDictionaryCollection, type Suggestion
 import type { Suggestion } from './api.js';
 import type { CSpellUserAndExtensionSettings } from './config/cspellConfig/index.mjs';
 
-const defaultNumSuggestions = 10;
+const defaultNumSuggestions = 3;
 
 const regexJoinedWords = /[+]/g;
 
@@ -27,8 +27,12 @@ export class SuggestionGenerator<DocInfo> {
         if (word.length > maxWordLengthForSuggestions) {
             return [];
         }
-        const numSugs =
-            word.length > wordLengthForLimitingSuggestions ? Math.min(maxNumberOfSuggestionsForLongWords, numSuggestions) : numSuggestions;
+        // 确保最多生成3个高质量的建议
+        const maxSuggestions = 3;
+        const numSugs = 
+            word.length > wordLengthForLimitingSuggestions 
+                ? Math.min(maxNumberOfSuggestionsForLongWords, numSuggestions) 
+                : Math.min(maxSuggestions, numSuggestions);
         const options: SuggestOptions = {
             numChanges: maxEdits,
             numSuggestions: numSugs,

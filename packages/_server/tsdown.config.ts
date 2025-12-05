@@ -3,7 +3,7 @@ import { defineConfig } from 'tsdown';
 export default defineConfig([
     {
         // This is the bundled version used for the server.
-        entry: ['src/main.mts'],
+        entry: ['src/main.mts', 'src/pinyinChecker.mts', 'src/japaneseChecker.mts'],
         outDir: 'dist',
         format: ['esm', 'cjs'],
         // dts: true,
@@ -16,7 +16,7 @@ export default defineConfig([
     },
     {
         // This is the non-bundled version used for the API to the client.
-        entry: ['src/main.mts', 'src/api.ts', 'src/lib/index.mts'],
+        entry: ['src/main.mts', 'src/api.ts', 'src/lib/index.mts', 'src/pinyinChecker.mts', 'src/japaneseChecker.mts'],
         outDir: 'out',
         format: ['esm', 'cjs'],
         dts: true,
