@@ -124,4 +124,11 @@ function conditionalUpdateLanguageStatusItem<K extends keyof vscode.LanguageStat
     if (item[key] !== value) {
         item[key] = value;
     }
+    // 添加一键修复状态栏按钮
+    const quickFixStatusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
+    quickFixStatusBarItem.text = "$(check-all) Fix All";
+    quickFixStatusBarItem.tooltip = "Fix all spelling issues in all open documents";
+    quickFixStatusBarItem.command = knownCommands['cSpell.batchFixAllSpellingIssues'];
+    quickFixStatusBarItem.show();
+    dList.add(quickFixStatusBarItem);
 }
