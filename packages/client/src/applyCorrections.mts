@@ -328,3 +328,33 @@ async function showUnsuccessfulMessage<T>(value: T, failedMeg: string | undefine
 function failed(msg?: string) {
     return pvShowErrorMessage(msg || 'Failed to apply spelling changes to the document.');
 }
+
+export async function actionBatchFixAllSpellingIssues(): Promise<void> {
+    // 获取所有打开的文本文档
+    const textDocuments = workspace.textDocuments;
+    
+    if (!textDocuments.length) {
+        return pvShowInformationMessage('No open documents to fix spelling issues.');
+    }
+
+    let totalFixed = 0;
+    let totalDocuments = 0;
+
+    for (const doc of textDocuments) {
+        const autoFixes = getAutoFixesForSpellingIssuesInDocument(doc);
+        
+        if (autoFixes?.length) {
+            const success = await applyTextEditsToDocumentWithRename(doc, autoFixes);
+            if (success) {
+                totalFixed += autoFixes.length;
+                totalDocuments++;
+            }
+        }
+    }
+
+    if (totalFixed > 0) {
+        pvShowInformationMessage(`Fixed ${totalFixed} spelling issues across ${totalDocuments} documents.`);
+    } else {
+        pvShowInformationMessage('No auto-fixable spelling issues found in any open documents.');
+    }
+}

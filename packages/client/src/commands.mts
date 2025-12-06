@@ -11,7 +11,7 @@ import {
     addWordToWorkspaceDictionary,
     fnWTarget,
 } from './addWords.mjs';
-import { actionAutoFixSpellingIssues, handleApplyLsTextEdits, handleFixSpellingIssue } from './applyCorrections.mjs';
+import { actionAutoFixSpellingIssues, actionBatchFixAllSpellingIssues, handleApplyLsTextEdits, handleFixSpellingIssue } from './applyCorrections.mjs';
 import type { ClientSideCommandHandlerApi } from './client/index.mjs';
 import { actionSuggestSpellingCorrections } from './codeActions/actionSuggestSpellingCorrections.mjs';
 import { extensionSettings } from './constants.js';
@@ -161,6 +161,7 @@ export const commandHandlers = {
     'cSpell.selectRange': handleSelectRange,
     'cSpell.fixSpellingIssue': handleFixSpellingIssue,
     'cSpell.autoFixSpellingIssues': actionAutoFixSpellingIssues,
+    'cSpell.batchFixAllSpellingIssues': actionBatchFixAllSpellingIssues,
 
     'cSpell.issueViewer.item.openSuggestionsForIssue': handlerResolvedLater,
     'cSpell.issueViewer.item.autoFixSpellingIssues': handlerResolvedLater,
