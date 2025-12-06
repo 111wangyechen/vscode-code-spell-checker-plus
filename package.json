@@ -676,6 +676,11 @@
         "category": "Spell",
         "title": "Open Spell Checker Settings",
         "icon": "$(gear)"
+      },
+      {
+    "command": "cSpell.batchFixAllSpellingIssues",
+    "title": "Spell Checker: Fix All Spelling Issues in All Open Documents",
+    "category": "Spell Checker"
       }
     ],
     "languages": [
